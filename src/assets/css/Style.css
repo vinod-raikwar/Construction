@@ -1,0 +1,209 @@
+/* ********TopHeader Css Start******** */
+.top-header {
+  padding: 0 30px;
+  position: relative;
+}
+.top-header-left {
+  display: inline-flex;
+  height: 100%;
+}
+
+.top-header-left P {
+  color: #001659;
+  font-weight: 400;
+  margin: auto;
+  margin-right: 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+}
+.top-header-left P span {
+  padding-right: 10px;
+  font-size: 15px;
+}
+.top-header-left P:hover a {
+  color: #ff5e14 !important;
+}
+
+/* ********TopHeader Css End******** */
+
+/* ********Navbar Css Start******** */
+
+#navbarScroll a {
+  border: 1px solid rgb(238, 238, 238);
+  width: 100%;
+  padding: 20px 25px;
+  color: #001659;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+#navbarScroll:active > a {
+  color: #ff5e14;
+}
+.nav-logo {
+  background-color: #ff5e14;
+  height: 100%;
+  align-items: center;
+  padding: 0px 114px;
+}
+.nav-logo a {
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+}
+/* ********Navbar Css End******** */
+
+/* ********Banner Css Start******** */
+
+.banner img {
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.schedule img {
+  position: absolute;
+  top: 15%;
+  width: 50%;
+  left: 10%;
+  height: 150px;
+}
+
+.slider-content {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 40%;
+}
+
+.txt-clr-wht h6 {
+  color: #fff !important;
+  font-size: 15px;
+}
+.txt-clr-wht h1 {
+  color: #fff !important;
+}
+.txt-clr-wht p {
+  color: #fff !important;
+}
+
+.btm-image img {
+  width: 100%;
+  height: 70px;
+}
+.carousel-control-next-icon {
+  /* display: !important; */
+  color: #001659 !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #001659 !important;
+}
+
+/* ********Banner Css End******** */
+
+
+/* ********About Css Start******** */
+.float-image {
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-1 {
+  text-align: left;
+}
+.image-2 {
+  text-align: right;
+  margin-left: -103px;
+}
+
+.vertical-flow {
+  animation-name: vertical;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+@keyframes vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.company-service p {
+  margin: 10px 0 0 0;
+  line-height: 30px;
+}
+.company-service span {
+  font-size: 10px;
+  padding-right: 15px;
+}
+
+.link-btn {
+  margin-top: 50px;
+}
+/* ********About Css End******** */
+
+/* ********Blog Css Start******** */
+.card-content p span{
+  padding-right: 20px;
+}
+.card-content h3:hover a{
+  color: #ff5e14 !important;
+}
+/* ********Blog Css End******** */
+
+/* ********Footer Css Start******** */
+.ftr-bg{
+  background-color: #001659;
+}
+.ftr-content-title h3{
+  color: #fff !important;
+}
+.ftr-content{
+  margin-top: 50px;
+}
+.ftr-content p a{
+  color: #9ca5af !important;
+}
+.ftr-content p:hover a{
+  color: #ff5e14 !important;
+}
+.ftr-content p span{
+  padding-right: 18px;
+ font-size: 23px;
+}
+.image-fluid{
+  fill: #9ca5af;
+  stroke: #9ca5af ;
+
+}
+.ftr-content p span svg{
+ width: 30px;
+ height: 30px;
+ fill: #9ca5af !important;
+}
+
+/* ********Footer Css End******** */
+
+
+
+
