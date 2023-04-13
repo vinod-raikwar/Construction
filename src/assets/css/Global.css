@@ -97,11 +97,17 @@ a {
 .mrt50 {
   margin-top: 50px;
 }
+.mrb50{
+  margin-bottom: 50px;
+}
 .pdb100 {
   padding-bottom: 100px;
 }
 .pdl50 {
   padding-left: 50px;
+}
+.pdb50{
+  padding-bottom: 50px;
 }
 .pdtb20 {
   padding: 20px 0;
