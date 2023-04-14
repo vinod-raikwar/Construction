@@ -28,7 +28,7 @@ function About() {
               <Col xs={12} md={6}>
                 <div className="main-heading pdl50">
                   <h6>Lorem, ipsum dolor.</h6>
-                  <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                  <h2>Lorem ipsum dolor sit.</h2>
 
                   <div className="company-service">
                     <p>

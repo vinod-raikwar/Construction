@@ -31,7 +31,7 @@ function Blog() {
                   </p>
                   <h3>
                     <Link to="#/">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Lorem ipsum dolor sit amet.
                     </Link>
                   </h3>
 
@@ -57,7 +57,7 @@ function Blog() {
                   </p>
                   <h3>
                     <Link to="#/">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Lorem ipsum dolor sit amet.
                     </Link>
                   </h3>
 
@@ -83,7 +83,7 @@ function Blog() {
                   </p>
                   <h3>
                     <Link to="#/">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Lorem ipsum dolor sit amet.
                     </Link>
                   </h3>
 

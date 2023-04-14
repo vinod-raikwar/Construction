@@ -40,26 +40,31 @@ h5,
 h6 {
   font-family: "Poppins-Regular";
   color: #001659;
+  transition: 0.3s;
 }
 .main-heading h1 {
   font-family: "Poppins-Bold";
-  font-size: 65px;
+  font-size: 55px;
+  line-height: 70px;
   text-transform: uppercase;
 }
 .main-heading h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   text-transform: capitalize;
   line-height: 50px;
 }
+h3{
+  font-size: 20px;
+}
 .main-heading h6 {
   text-transform: uppercase;
   color: #9ca5af;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: #9ca5af;
   font-family: "Poppins-Light";
 }
@@ -90,7 +95,9 @@ a {
 .link-btn .blue-btn {
   background-color: #001659;
 }
-
+.wht-clr{
+  color: #fff !important;
+}
 .mrt100 {
   margin-top: 100px;
 }
@@ -103,12 +110,28 @@ a {
 .pdb100 {
   padding-bottom: 100px;
 }
+.pdt50{
+  padding-top: 50px;
+}
 .pdl50 {
   padding-left: 50px;
+}
+.pdr50 {
+  padding-right: 50px;
 }
 .pdb50{
   padding-bottom: 50px;
 }
 .pdtb20 {
   padding: 20px 0;
+}
+.pdtb15 {
+  padding: 15px 0;
+}
+
+.mrgn{
+  margin: auto;
+}
+.content p>span {
+  padding-right: 10px;
 }

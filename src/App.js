@@ -2,10 +2,10 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TopHeader from "./components/TopHeader.js";
 import NavBar from "./components/NavBar.js";
-import Banner from "./components/Banner.js";
-import About from "./components/About.js";
-import Blog from "./components/Blog.js";
 import Footer from "./components/Footer.js";
+import Home from "./pages/Home.js";
+import AboutUs from "./pages/AboutUs.js";
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -13,11 +13,10 @@ function App() {
       <BrowserRouter>
         <TopHeader />
         <NavBar />
-        <Banner />
-        <About />
-        <Blog />
         <Routes>
-          <Route></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
         <Footer />
       </BrowserRouter>

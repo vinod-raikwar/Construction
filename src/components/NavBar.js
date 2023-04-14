@@ -1,9 +1,6 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import {Container,Navbar,Nav,Form } from "react-bootstrap";
+import { Link,NavLink } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
 import { BsSearch,BsCart3 } from "react-icons/bs";
@@ -16,9 +13,9 @@ function NavBar() {
     <>
       <Navbar bg="" expand="lg">
         <Container fluid className="gx-0">
-          <Navbar.Brand to="#home">
+          <Navbar.Brand to="/">
             <div className="logo-link ">
-              <Link to="#/" className="position-relative">
+              <Link to="/" className="position-relative">
                 <h3>Logo</h3>
               </Link>
             </div>
@@ -31,12 +28,12 @@ function NavBar() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">About</Nav.Link>
-              <Nav.Link href="#action1">Portfolio</Nav.Link>
-              <Nav.Link href="#action2">Blog</Nav.Link>
-              <Nav.Link href="#action1">Shop</Nav.Link>
-              <Nav.Link href="#action2">Contact</Nav.Link>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/aboutus">About</NavLink>
+              <NavLink to="/portfolio">Portfolio</NavLink>
+              <NavLink to="blog">Blog</NavLink>
+              <NavLink to="shop">Shop</NavLink>
+              <NavLink to="contact">Contact</NavLink>
             </Nav>
             <Form className="d-flex search-icon">
               {/* <Form.Control
