@@ -285,6 +285,7 @@
 }
 
 /* ********AboutUs Css End******** */
+
 /* ********Portfolio Css Start******** */
 .card-img {
   position: relative;
@@ -305,14 +306,69 @@
   flex-direction: column;
   align-items: end;
 }
-.img-hover-content .social-icon a{
+.img-hover-content .social-icon a {
   font-size: 25px;
 }
-.card-img:hover .img-hover-content{
+.card-img:hover .img-hover-content {
   opacity: 1;
 }
-span>a:hover{
+span > a:hover {
   color: #ff5e14 !important;
 }
 
 /* ********Portfolio Css End******** */
+/* ********Blog Css Start******** */
+.post-content p span {
+  padding: 0 10px;
+}
+.border-btm-link{
+  border-bottom: 2px solid #9ca5af;
+  margin-bottom: 45px;
+  width: 95% !important;
+}
+.border-btm-link a {
+  color: #ff5e14 !important;
+}
+.border-btm-link a span {
+  font-size: 14px;
+  margin-right: -14px;
+  padding-left: 6px;
+}
+/* ********Blog Css End******** */
+.blog-sidebar-box{
+  background: #fff;
+  border: none;
+  margin-bottom: 45px;
+  padding: 30px;
+  width: 100%;
+  box-shadow: 0px 0px 30px 0px rgb(0 33 85 / 10%);
+}
+.blog-sidebar-box h3 {
+  border-bottom: 2px solid #9ca5af;
+  padding-bottom: 10px;
+}
+.header-form{
+  padding-top: 20px;
+}
+.btn{
+  border: 1px solid #ff5e14 !important;
+  border-radius: 0px !important;
+  background-color: #ff5e14 !important;
+}
+.form-control {
+  padding: 0.75rem 0.75rem !important;
+  border-radius: 0rem !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ff5e14 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0 .25rem rgb(255, 94, 20 .25rem) !important;
+}
+
+.blog-tags a{
+  border: 1px solid #9ca5af;
+  padding: 8px;
+  margin: 10px 10px 0px 0px;
+}

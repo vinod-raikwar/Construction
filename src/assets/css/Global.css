@@ -54,7 +54,12 @@ h6 {
   text-transform: capitalize;
   line-height: 50px;
 }
-h3{
+/* h3 {
+  font-size: 20px;
+} */
+h4 {
+  text-transform: uppercase;
+  color: #9ca5af;
   font-size: 20px;
 }
 .main-heading h6 {
@@ -67,6 +72,7 @@ p {
   font-size: 16px;
   color: #9ca5af;
   font-family: "Poppins-Light";
+  /* margin-bottom: 0 !important; */
 }
 
 a {
@@ -82,7 +88,12 @@ a {
 .social-icon a:hover {
   color: #ff5e14 !important;
 }
-
+.clr-orenge {
+  color: #ff5e14 !important;
+}
+.clr-black {
+  color: #000000;
+}
 .link {
   padding: 15px 38px;
   color: #fff !important;
@@ -95,7 +106,7 @@ a {
 .link-btn .blue-btn {
   background-color: #001659;
 }
-.wht-clr{
+.wht-clr {
   color: #fff !important;
 }
 .mrt100 {
@@ -104,13 +115,14 @@ a {
 .mrt50 {
   margin-top: 50px;
 }
-.mrb50{
+.mrb50 {
   margin-bottom: 50px;
 }
 .pdb100 {
   padding-bottom: 100px;
 }
-.pdt50{
+
+.pdt50 {
   padding-top: 50px;
 }
 .pdl50 {
@@ -119,7 +131,7 @@ a {
 .pdr50 {
   padding-right: 50px;
 }
-.pdb50{
+.pdb50 {
   padding-bottom: 50px;
 }
 .pdtb20 {
@@ -128,10 +140,13 @@ a {
 .pdtb15 {
   padding: 15px 0;
 }
+.pd16{
+  margin: 16px 16px 0;
+}
 
-.mrgn{
+.mrgn {
   margin: auto;
 }
-.content p>span {
+.content p > span {
   padding-right: 10px;
 }

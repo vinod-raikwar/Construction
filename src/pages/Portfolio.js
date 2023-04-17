@@ -37,11 +37,8 @@ function Portfolio() {
 
         <div className="mrt100">
           <Container>
-            <Col xs={12}> 
-            <div className="">
-              
-            </div>
-            
+            <Col xs={12}>
+              <div className=""></div>
             </Col>
             <Row>
               <Col xs={12} sm={6} md={4}>
@@ -52,7 +49,7 @@ function Portfolio() {
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Bathroom Modeling</h2>
+                      <h3>Bathroom Modeling</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                         <Link to="#/">Renovation</Link>
@@ -80,14 +77,14 @@ function Portfolio() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4}>
-              <div className="card-img pdtb15">
+                <div className="card-img pdtb15">
                   <Link to="#/">
                     <img className="img-fluid" src={p_2} alt="" />
                   </Link>
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Bathroom Construction</h2>
+                      <h3>Bathroom Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                       </span>
@@ -114,14 +111,14 @@ function Portfolio() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4}>
-              <div className="card-img pdtb15">
+                <div className="card-img pdtb15">
                   <Link to="#/">
                     <img className="img-fluid" src={p_3} alt="" />
                   </Link>
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Park Offices</h2>
+                      <h3>Park Offices</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                       </span>
@@ -155,7 +152,7 @@ function Portfolio() {
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Interior Construction</h2>
+                      <h3>Interior Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                         <Link to="#/">Renovation</Link>
@@ -183,14 +180,14 @@ function Portfolio() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4}>
-              <div className="card-img pdtb15">
+                <div className="card-img pdtb15">
                   <Link to="#/">
                     <img className="img-fluid" src={p_5} alt="" />
                   </Link>
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Roofing Construction</h2>
+                      <h3>Roofing Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                       </span>
@@ -217,14 +214,14 @@ function Portfolio() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4}>
-              <div className="card-img pdtb15">
+                <div className="card-img pdtb15">
                   <Link to="#/">
                     <img className="img-fluid" src={p_6} alt="" />
                   </Link>
 
                   <div className="img-hover-content d-flex">
                     <div className="pdtb20">
-                      <h2>Road Construction</h2>
+                      <h3>Road Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
                       </span>

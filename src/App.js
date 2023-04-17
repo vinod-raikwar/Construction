@@ -5,7 +5,8 @@ import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
 import Home from "./pages/Home.js";
 import AboutUs from "./pages/AboutUs.js";
-import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio.js';
+import Blog from './pages/Blog.js';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <TopHeader />
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/" element={<Home />}/>
+          <Route path="/aboutus" element={<AboutUs />}/>
+          <Route path="/portfolio" element={<Portfolio />}/>
+          <Route path="/blog" element={<Blog />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
