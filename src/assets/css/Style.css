@@ -118,14 +118,13 @@
 
 /* ********Banner Css End******** */
 
-/* ********About Css Start******** */
+/* ********AboutBlog Css Start******** */
 .float-image {
   position: relative;
   display: flex;
   margin-right: auto;
   margin-left: auto;
 }
-
 .image-1 {
   text-align: left;
 }
@@ -159,6 +158,7 @@
 .company-service p {
   margin: 10px 0 0 0;
   line-height: 30px;
+  color: #9ca5af !important;
 }
 .company-service span {
   font-size: 10px;
@@ -166,13 +166,17 @@
 }
 
 .link-btn {
-  margin-top: 50px;
+  margin: 30px 0;
 }
-/* ********About Css End******** */
+.border-btm{
+  border-bottom: 5px solid #ff5e14;
+}
+/* ********AboutBlog Css End******** */
 
 /* ********Blog Css Start******** */
 .card-content p span {
   padding-right: 20px;
+  color: #9ca5af;
 }
 .card-content h3:hover a {
   color: #ff5e14 !important;
@@ -260,6 +264,11 @@
   justify-content: center;
   align-items: center;
 }
+.ftr-content p img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
 /* ********Footer Css End******** */
 
 /* ********AboutUs Css Start******** */
@@ -334,7 +343,7 @@ span > a:hover {
   margin-right: -14px;
   padding-left: 6px;
 }
-/* ********Blog Css End******** */
+
 .blog-sidebar-box{
   background: #fff;
   border: none;
@@ -371,4 +380,95 @@ span > a:hover {
   border: 1px solid #9ca5af;
   padding: 8px;
   margin: 10px 10px 0px 0px;
+}
+.wht-clr h6{
+  color: #fff ;
+}
+/* ********Blog Css End******** */
+/* ********Testimonial Css Start******** */
+.text>h1{
+  text-transform: capitalize;
+  font-family: "Poppins-Bold";
+}
+/* ********Testimonial Css End******** */
+/* ********Counter Css Start******** */
+.counter-bg-img{
+  background-image: url(../images/counter/counter-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.counter-bg-img::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(31, 28, 12, 0.7);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.counter-text a img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.counter-text>h2,p{ 
+  color: #fff !important;
+}
+.count-title>h1{
+  text-transform: capitalize ;
+  color: #fff ;
+}
+.counter-text {
+  text-align: center;
+  padding: 40px 20px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  /* margin: 50px 0px 50px 0px; */
+  margin-bottom: 50px;
+}
+ .counter-text::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.counter-img-1{
+  background-image: url("../images/counter/cnt-exp.jpg");
+}
+.counter-img-2{
+  background-image: url("../images/counter/cntr-prjct-2.jpg");
+}
+
+.counter-img-3{
+  background-image: url("../images/counter/cntr-h-clnt-3.jpg");
+}
+
+.counter-img-4{
+  background-image: url("../images/counter/cntr-4.jpg");
+}
+
+
+/* ********Counter Css End******** */
+
+.accordion-item{
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.accordion-item:first-of-type .accordion-button {
+  box-shadow: none !important;
+}
+.accordion-button:active{
+  background-color: none !important;
 }
