@@ -5,19 +5,18 @@ import "../assets/css/Global.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import cl_1 from "../assets/images/testimonial/client-logo1.jpg";
-import cl_2 from "../assets/images/testimonial/client-logo2.jpg";
-import cl_3 from "../assets/images/testimonial/client-logo3.jpg";
-import cl_4 from "../assets/images/testimonial/client-logo4.jpg";
-import cl_5 from "../assets/images/testimonial/client-logo5.jpg";
-import map from "../assets/images/testimonial/orenge-map.jpg";
+import l_1 from "../assets/images/testimonial/Layer-1.webp";
+import l_2 from "../assets/images/testimonial/Layer-2.webp";
+import l_3 from "../assets/images/testimonial/Layer-3.webp";
+import l_4 from "../assets/images/testimonial/Layer-4.webp";
+import l_5 from "../assets/images/testimonial/Layer-5.webp";
 
 function Testimonial() {
   var settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
   };
   return (
@@ -26,40 +25,44 @@ function Testimonial() {
         <div className="mrt100">
           <Container>
             <Row>
-              <Col xs={12} sm={6}>
+              <Col xs={12}>
                 <div className=" mrt50">
                   <div className=" text-center text">
                     <h2>Our Partners</h2>
                     <h1>Valueds Clients</h1>
                   </div>
-                  <div className="">
+                  <div className="pt-5">
                     <Slider {...settings}>
                       <div className="pdtb20">
-                        <img src={cl_1} alt="" />
+                        <img src={l_1} alt="" />
                       </div>
                       <div className="pdtb20">
-                        <img src={cl_2} alt="" />
+                        <img src={l_2} alt="" />
                       </div>
                       <div className="pdtb20">
-                        <img src={cl_3} alt="" />
-                      </div>
-                      <div className="">
-                        <img src={cl_4} alt="" />
+                        <img src={l_3} alt="" />
                       </div>
                       <div className="pdtb20">
-                        <img src={cl_5} alt="" />
+                        <img src={l_4} alt="" />
+                      </div>
+                      <div className="pdtb20">
+                        <img src={l_5} alt="" />
+                      </div>
+                      <div className="pdtb20">
+                        <img src={l_2} alt="" />
+                      </div>
+                      <div className="pdtb20">
+                        <img src={l_4} alt="" />
                       </div>
                     </Slider>
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={6}>
-                <div className="pdd50 pdr50 mrt50 ">
-                  <img className="img-fluid" src={map} alt="" />
-                </div>
-              </Col>
             </Row>
           </Container>
+        </div>
+        <div className="mrt100">
+
         </div>
       </section>
     </>

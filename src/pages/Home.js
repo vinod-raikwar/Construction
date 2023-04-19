@@ -4,7 +4,8 @@ import About from "../components/About.js";
 import Blog from "../components/ArticleBlog.js";
 import Features from "../components/Features.js";
 import Testimonial from "../components/Testimonial.js";
-import Counter from '../components/Counter';
+import Counter from '../components/Counter.js';
+// import Projects from '../components/Projects.js';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
     <Counter/>
     <Features/>
     <Testimonial/>
+    {/* <Projects/> */}
     </>
   )
 }
