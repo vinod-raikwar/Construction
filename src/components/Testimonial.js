@@ -15,7 +15,7 @@ function Testimonial() {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 100,
     slidesToShow: 5,
     slidesToScroll: 1,
   };
@@ -26,33 +26,35 @@ function Testimonial() {
           <Container>
             <Row>
               <Col xs={12}>
-                <div className=" mrt50">
-                  <div className=" text-center text">
-                    <h2>Our Partners</h2>
-                    <h1>Valueds Clients</h1>
+                <div >
+                  <div className="d-flex justify-content-center">
+                    <div className="main-heading">
+                    <span className="span-text ">&nbsp;&nbsp;our partners</span>
+                    <h2>Valueds Clients</h2>
+                    </div>
                   </div>
-                  <div className="pt-5">
+                  <div className="mrt50 box-shadow">
                     <Slider {...settings}>
-                      <div className="pdtb20">
-                        <img src={l_1} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_1} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_2} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_2} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_3} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_3} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_4} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_4} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_5} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_5} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_2} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_2} alt="" />
                       </div>
-                      <div className="pdtb20">
-                        <img src={l_4} alt="" />
+                      <div className="pdtb20 effect d-flex justify-content-center">
+                        <img className="img-fluid" src={l_4} alt="" />
                       </div>
                     </Slider>
                   </div>
@@ -61,9 +63,7 @@ function Testimonial() {
             </Row>
           </Container>
         </div>
-        <div className="mrt100">
-
-        </div>
+        <div className="mrt100"></div>
       </section>
     </>
   );

@@ -31,7 +31,7 @@ function Footer() {
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50 pdb50">
                   <h3>Lorem, Tech</h3>
-                  <div className="ftr-content content">
+                  <div className="ftr-content content ftr">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Explicabo voluptatibus necessitatibus odio blanditiis
@@ -76,7 +76,7 @@ function Footer() {
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50">
                   <h3>Office in Indore </h3>
-                  <div className="ftr-content content">
+                  <div className="ftr-content content ftr">
                     <p>
                       <span>
                         <SlLocationPin />
@@ -128,7 +128,7 @@ function Footer() {
           <Container>
             <Row>
               <Col xs={12} sm={4}>
-                <div className="btm-ftr-left">
+                <div className="btm-ftr-left pt-1">
                   <div className="logo-link">
                     <Link to="#/">
                       <h3>Logo</h3>
@@ -137,7 +137,7 @@ function Footer() {
                 </div>
               </Col>
               <Col xs={12} sm={4}>
-                <div className="copy-right">
+                <div className="copy-right ftr">
                   <p>
                     <span>
                       <MdCopyright />

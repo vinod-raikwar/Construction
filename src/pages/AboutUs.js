@@ -17,7 +17,7 @@ function AboutUs() {
             <Row>
               <Col xs={5}>
                 <div className="main-heading ">
-                  <h6 className="wht-clr">Lorem, ipsum dolor.</h6>
+                  <span className="wht-clr">Lorem, ipsum dolor.</span>
                   <h1>About Us</h1>
                   <p className="wht-clr">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -35,7 +35,7 @@ function AboutUs() {
               <Col xs={12} sm={4}>
                 <div className="main-heading">
                   <h6>Few Word About Lorem</h6>
-                  <h2>Lorem ipsum dolor, sit amet consectetur.</h2>
+                  <h3>Lorem ipsum dolor, sit amet consectetur.</h3>
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Illum iure, nihil nesciunt earum aliquid quaerat provident
@@ -69,7 +69,7 @@ function AboutUs() {
             <Row>
               <Col xs={12} sm={4}>
                 <div className="pdr50">
-                  <h2>Keep Your Business Safe & Ensure High Availability.</h2>
+                  <h3>Keep Your Business Safe & Ensure High Availability.</h3>
                 </div>
               </Col>
               <Col xs={12} sm={4}>

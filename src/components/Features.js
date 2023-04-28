@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
-import pp from "../assets/images/project-planning.jpg";
+import p1 from "../assets/images/project-planning.jpg";
+import p2 from "../assets/images/feature-img.jpg";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
-
-import { Link } from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 function Features() {
   return (
@@ -15,12 +15,17 @@ function Features() {
             <Row>
               <Col xs={12} sm={6}>
                 <div className="project-planning">
-                  <h6>Construction company</h6>
-                  <h1>Why people choice us?</h1>
+                  <div className="main-heading ps-2">
+                    <span className="span-text ">
+                    &nbsp;&nbsp;Construction company
+                    </span>
+                    <h2>Why people choice us?</h2>
+                  </div>
+
                   <Accordion>
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
-                        <h5>How much does a home remodeling cost?</h5>{" "}
+                        <h6>How much does a home remodeling cost?</h6>{" "}
                       </Accordion.Header>
                       <Accordion.Body>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -28,9 +33,10 @@ function Features() {
                         magna aliqua.
                       </Accordion.Body>
                     </Accordion.Item>
+
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
-                        <h5>How much does a home Building cost?</h5>{" "}
+                        <h6>How much does a home Building cost?</h6>{" "}
                       </Accordion.Header>
                       <Accordion.Body>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -38,55 +44,59 @@ function Features() {
                         magna aliqua.
                       </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="1">
+
+                    <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        <h5>Why do roofing estimates vary so widely?</h5>{" "}
+                        <h6>Why do roofing estimates vary so widely?</h6>{" "}
                       </Accordion.Header>
                       <Accordion.Body>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                       </Accordion.Body>
-                      <Accordion.Item eventKey="1">
-                        <Accordion.Header>
-                          <h5>Why do roofing estimates vary so widely?</h5>{" "}
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </Accordion.Body>
-                      </Accordion.Item>
-                      <Accordion.Item eventKey="1">
-                        <Accordion.Header>
-                          <h5>Why do roofing estimates vary so widely?</h5>{" "}
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </Accordion.Body>
-                      </Accordion.Item>
+                    </Accordion.Item>
+
+                    <Accordion.Item eventKey="3">
+                      <Accordion.Header>
+                        <h6>Why do roofing estimates vary so widely?</h6>{" "}
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </Accordion.Body>
+                    </Accordion.Item>
+
+                    <Accordion.Item eventKey="4">
+                      <Accordion.Header>
+                        <h6>Why do roofing estimates vary so widely?</h6>{" "}
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
+                  <div className="link-btn">
+                    <Link className="link orenge-btn" to="#/">
+                      Read More
+                    </Link>
+                  </div>
                 </div>
               </Col>
               <Col xs={12} sm={6}>
-                <div className="project-planning">
-                  <img className="img-fluid" src={pp} alt="" />
+                <div className="feature-img pd-3">
+                  <div className="feature-img-1">
+                    <img className="img-fluid" src={p1} alt="" />
+                  </div>
+                  <div className="feature-img-2">
+                    <img className="img-fluid" src={p2} alt="" />
+                  </div>
                 </div>
               </Col>
             </Row>
           </Container>
-        </div>
-        <div className="arrow-btn">
-          <div className="pt-button-block">
-            <Link className="pt-button pt-btn-flat" to="#/">
-              <span className="pt-button-line-left"></span>
-              <span className="pt-button-text">Read More</span>
-              <span className="pt-button-line-left"></span>
-            </Link>
-          </div>
         </div>
       </section>
     </>

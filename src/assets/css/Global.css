@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "Poppins-Bold";
+  font-family: "Poppins-SemiBold";
   font-style: normal;
   font-weight: normal;
-  src: url("../font/Poppins-Bold.ttf");
+  src: url("../font/Poppins-SemiBold.ttf");
 }
 @font-face {
   font-family: "Poppins-Regular";
@@ -22,7 +22,7 @@
   src: url("../font/Poppins-Light.ttf");
 }
 body {
-  font-family: "Poppins-Regular";
+  font-family: "Poppins-Light";
   font-size: 18px;
   font-weight: 300;
   line-height: 26px;
@@ -35,48 +35,59 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-family: "Poppins-Regular";
+  text-transform: capitalize;
   color: #001659;
   transition: 0.3s;
 }
-.main-heading h1 {
-  font-family: "Poppins-Bold";
-  font-size: 55px;
-  line-height: 70px;
+h1 {
+  font-family: "Poppins-SemiBold";
   text-transform: uppercase;
-}
-.main-heading h2 {
-  font-size: 35px;
-  font-weight: 600;
-  text-transform: capitalize;
-  line-height: 50px;
-}
-/* h3 {
-  font-size: 20px;
-} */
-h4 {
-  text-transform: uppercase;
-  color: #9ca5af;
-  font-size: 20px;
-}
-.main-heading h6 {
-  text-transform: uppercase;
-  color: #9ca5af;
-  font-size: 14px;
+  font-size: 55px !important;
+  line-height: 60px;
 }
 
-p {
+.main-heading > h2 {
+  font-size: 35px;
+  line-height: 50px;
+  font-family: "Poppins-SemiBold";
+  padding: 5px 0;
+}
+.main-heading > h3 {
   font-size: 16px;
-  color: #9ca5af;
+  line-height: 32px;
+}
+h5{
+  font-size: 16px !important;
+  color: #001659;
+  text-transform: uppercase;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
   font-family: "Poppins-Light";
-  /* margin-bottom: 0 !important; */
+}
+.span-text {
+  text-transform: uppercase;
+  font-family: "Poppins-Regular";
+  font-weight: 900;
+  font-size: 14px;
+  color: #ff5e14 !important;
+  position: relative;
+}
+.span-text::before {
+  position: absolute;
+  content: " ";
+  width: 2px;
+  height: 100%;
+  background: #ff5e14;
+  top: 0;
 }
 
 a {
-  color: #001659 !important;
+  color: #565969 !important;
   text-decoration: none !important;
 }
 
@@ -88,11 +99,25 @@ a {
 .social-icon a:hover {
   color: #ff5e14 !important;
 }
+.box-shadow {
+  box-shadow: 0 23px 47px #e6e8e9;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+}
+.word-wrap {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .clr-orenge {
   color: #ff5e14 !important;
 }
 .clr-black {
   color: #000000;
+}
+.wht-clr {
+  color: #fff !important;
 }
 .link {
   padding: 15px 38px;
@@ -106,9 +131,6 @@ a {
 .link-btn .blue-btn {
   background-color: #001659;
 }
-.wht-clr {
-  color: #fff !important;
-}
 
 .mrt100 {
   margin-top: 100px;
@@ -119,10 +141,13 @@ a {
 .mrb50 {
   margin-bottom: 50px;
 }
+.mrtb15{
+  margin: 15px 0;
+}
 .pdb100 {
   padding-bottom: 100px;
 }
-.pd150{
+.pd150 {
   padding: 50px 150px;
 }
 .pdt150 {
@@ -143,13 +168,94 @@ a {
 .pdtb15 {
   padding: 15px 0;
 }
-.pd16{
+.pd16 {
   margin: 16px 16px 0;
 }
-
 .mrgn {
   margin: auto;
 }
 .content p > span {
   padding-right: 10px;
 }
+
+/* *******Arrow Btn Css Start********* */
+
+.pt-button {
+  position: relative;
+  width: auto;
+  text-transform: capitalize;
+  color: white;
+  padding: 6px 0px;
+  line-height: 2;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+}
+.pt-button-text{
+  color: #ff5e14;
+}
+.pt-button:hover .pt-button-text{
+  padding-left: 70px;
+  padding-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.pt-button span {
+  transition: all 0.5s ease-in-out;
+}
+.pt-button.pt-btn-link {
+  padding: 0;
+  background: transparent;
+  color: #ff5e14;
+  line-height: 1;
+  float: inherit;
+}
+.pt-button-line-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  width: 0;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+  background: #ff5e14;
+}
+.pt-button:hover .pt-button-line-left{
+  width: 60px;
+}
+
+.pt-button-line-right {
+  background: #ff5e14;
+  width: calc(60px - 1px);
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+  opacity: 1;
+  margin-left: 15px;
+}
+.pt-button:hover .pt-button-line-right{
+  opacity: 0;
+  display: none;
+}
+.svg-arrow > svg {
+  vertical-align: middle;
+  margin-left: -10px;
+  font-size: 23px;
+  color: #ff5e14;
+}
+
+/* .pt-button {
+  position: relative;
+  width: auto;
+  text-transform: capitalize;
+  background: #ff5e14;
+  color: #fff !important;
+  padding: 12px 30px;
+  line-height: 2;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid red;
+} */
+
+/* *******Arrow Btn Css End********* */

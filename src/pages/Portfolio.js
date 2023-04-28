@@ -48,7 +48,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Bathroom Modeling</h3>
                       <span>
                         <Link to="#/">Building,</Link>
@@ -83,7 +83,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Bathroom Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
@@ -117,7 +117,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Park Offices</h3>
                       <span>
                         <Link to="#/">Building,</Link>
@@ -151,7 +151,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Interior Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
@@ -186,7 +186,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Roofing Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>
@@ -220,7 +220,7 @@ function Portfolio() {
                   </Link>
 
                   <div className="img-hover-content d-flex">
-                    <div className="pdtb20">
+                    <div className="pdtb20 w-100">
                       <h3>Road Construction</h3>
                       <span>
                         <Link to="#/">Building,</Link>

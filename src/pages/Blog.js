@@ -36,13 +36,13 @@ function Blog() {
         <div className="mrt100">
           <Container>
             <div className="text-center">
-              <h4>Our Blogs</h4>
-              <h5>
+              <h5>Our Blogs</h5>
+              <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
                 non repudiandae cumque ea dolorum consequuntur explicabo ipsum.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit, non.
-              </h5>
+              </p>
             </div>
             <Row>
               <Col xs={12} sm={8}>
@@ -55,7 +55,7 @@ function Blog() {
                     </Col>
                     <Col xs={12} sm={8}>
                       <div className="post-content">
-                        <h2>Lorem, ipsum dolor.</h2>
+                        <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
                           <span className="clr-orenge">January 6, 2023</span>
@@ -97,7 +97,7 @@ function Blog() {
                     </Col>
                     <Col xs={12} sm={8}>
                       <div className="post-content">
-                        <h2>Lorem, ipsum dolor.</h2>
+                        <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
                           <span className="clr-orenge">January 6, 2023</span>
@@ -139,7 +139,7 @@ function Blog() {
                     </Col>
                     <Col xs={12} sm={8}>
                       <div className="post-content">
-                        <h2>Lorem, ipsum dolor.</h2>
+                        <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
                           <span className="clr-orenge">January 6, 2023</span>

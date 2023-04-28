@@ -1,35 +1,184 @@
 import React from "react";
-import Swiper from "react-slider-swiper";
-
-const params = {
-  pagination: ".swiper-pagination",
-  paginationClickable: true,
-  nextButton: ".swiper-button-next",
-  prevButton: ".swiper-button-prev",
-  spaceBetween: 30,
-
-  // effect:"coverflow",
-  // grabCursor: true,
-  // centeredSlides: true,
-  // slidesPerView: "auto",
-  // coverflow:{
-  //     rotate: 50,
-  //     stretch: 0,
-  //     depth: 100,
-  //     modifier: 1,
-  //     slideShadows: true
-  // }
-};
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "../assets/css/Style.css";
+import "../assets/css/Global.css";
+import p1 from "../assets/images/projects/projects-1.jpg";
+import p2 from "../assets/images/projects/projects-2.jpg";
+import p3 from "../assets/images/projects/projects-3.jpg";
+import p4 from "../assets/images/projects/projects-4.jpg";
+import p5 from "../assets/images/projects/projects-5.jpg";
+import p6 from "../assets/images/projects/projects-6.jpg";
+import { MdOutlineArrowRight } from "react-icons/md";
 function Projects() {
   return (
     <>
-      <Swiper {...params}>
-        <div>Slide 1</div>
-        <div>Slide 2</div>
-        <div>Slide 3</div>
-        <div>Slide 4</div>
-        <div>Slide 5</div>
-      </Swiper>
+      <section>
+        <div className="mrt100">
+          <Container>
+            <div className="d-flex justify-content-center">
+              <div className="main-heading">
+                <span className="span-text">&nbsp;&nbsp;our work</span>
+                <h2>Explore Recent Projects</h2>
+              </div>
+            </div>
+            <div className="mrt50">
+              <Row>
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p1} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp; Interior</span>
+                      <h3>MD Designs</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p2} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp; commercial</span>
+                      <h3>Binoid architecture</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p3} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp; furniture</span>
+                      <h3>museum architecture</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p4} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp;Designer</span>
+                      <h3>Catalyst Architech</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p5} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp; commercial</span>
+                      <h3>membrane structure</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                  <div className="project mrtb15">
+                    <div className="project-img">
+                      <Link to="#/">
+                        <img className="img-fluid" src={p6} alt="" />
+                      </Link>
+                    </div>
+
+                    <div className="project-content">
+                      <span className="span-text">&nbsp;Interior</span>
+                      <h3>VR Design</h3>
+                      <div className="arrow-btn">
+                        <Link className="pt-button" to="#/">
+                          <span className="pt-button-line-left"></span>
+                          <span className="pt-button-text">Read More</span>
+                          <span className="pt-button-line-right"></span>
+                          <span className="svg-arrow">
+                            <MdOutlineArrowRight />
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <div className="link-btn text-center mt-5">
+                  <Link className="link orenge-btn" to="#/">
+                    Read More
+                  </Link>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </section>
     </>
   );
 }

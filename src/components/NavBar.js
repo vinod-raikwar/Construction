@@ -1,18 +1,16 @@
 import React from "react";
-import {Container,Navbar,Nav,Form } from "react-bootstrap";
-import { Link,NavLink } from "react-router-dom";
+import { Container, Navbar, Nav, Form } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
-import { BsSearch,BsCart3 } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
+// import { AiOutlineClose } from "react-icons/ai";
 
 function NavBar() {
-
-  // const=handleSearch
-  // onClick={handleSearch}
   return (
     <>
-      <Navbar bg="" expand="lg">
-        <Container fluid className="gx-0">
+      <Navbar bg="" expand="lg" className="py-1">
+        <Container fluid className="px-0">
           <Navbar.Brand to="/">
             <div className="logo-link ">
               <Link to="/" className="position-relative">
@@ -35,16 +33,18 @@ function NavBar() {
               <NavLink to="shop">Shop</NavLink>
               <NavLink to="contact">Contact</NavLink>
             </Nav>
-            <Form className="d-flex search-icon">
-              {/* <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              /> */}
-              <span ><BsSearch/></span>
-              <span><BsCart3/></span>
-            </Form>
+            <div className="d-flex nav-icon">
+              <Form  className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search..."
+                  aria-label="Search"  
+                />
+                <span className="search">
+                  <BsSearch />
+                </span>
+              </Form>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -53,3 +53,10 @@ function NavBar() {
 }
 
 export default NavBar;
+
+//  <span className="close">
+//  <AiOutlineClose />
+//  </span>
+//    <span className="cart-icon">
+//     <BsCart3 />
+//   </span>

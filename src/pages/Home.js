@@ -1,22 +1,24 @@
 import React from 'react';
 import Banner from "../components/Banner.js";
-import About from "../components/About.js";
-import Blog from "../components/ArticleBlog.js";
+import AboutBlog from "../components/AboutBlog.js";
+import BlogPost from "../components/BlogPost.js";
 import Features from "../components/Features.js";
 import Testimonial from "../components/Testimonial.js";
-import Counter from '../components/Counter.js';
-// import Projects from '../components/Projects.js';
+import Projects from '../components/Projects.js';
+import Experience from '../components/Experience';
+import Team from '../components/Team';
 
 function Home() {
   return (
     <>
     <Banner/>
-    <About/>
-    <Blog/>
-    <Counter/>
+    <AboutBlog/>
     <Features/>
+    <Experience/>
+    <Projects/>
+    <BlogPost/>
     <Testimonial/>
-    {/* <Projects/> */}
+    <Team/>
     </>
   )
 }
