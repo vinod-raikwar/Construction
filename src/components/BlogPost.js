@@ -18,10 +18,10 @@ function Blog() {
         <div className="mrt100">
           <Container>
             <div className="d-flex justify-content-center">
-            <div className="main-heading text-start">
-              <span className="span-text">&nbsp;&nbsp;construction Blog</span>
-              <h2>This is blog posts</h2>
-            </div>
+              <div className="main-heading text-start">
+                <span className="span-text">&nbsp;&nbsp;construction Blog</span>
+                <h2>This is blog posts</h2>
+              </div>
             </div>
             <div>
               <div className="mrt50">
@@ -67,10 +67,10 @@ function Blog() {
                             elit. Voluptas aspernatur odit tempore veniam nobis
                             recusandae.
                           </p>
-                          <div className="link-btn pdtb15">
-                            <Link className="link orenge-btn" to="#/">
-                              Read More
-                            </Link>
+                          <div className="link-btn d-flex">
+                            <div className="link orenge-btn">
+                              <Link to="#/">Read More</Link>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -116,10 +116,10 @@ function Blog() {
                             elit. Voluptas aspernatur odit tempore veniam nobis
                             recusandae.
                           </p>
-                          <div className="link-btn pdtb15">
-                            <Link className="link orenge-btn" to="#/">
-                              Read More
-                            </Link>
+                          <div className="link-btn d-flex">
+                            <div className="link orenge-btn">
+                              <Link to="#/">Read More</Link>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -165,10 +165,10 @@ function Blog() {
                             elit. Voluptas aspernatur odit tempore veniam nobis
                             recusandae.
                           </p>
-                          <div className="link-btn pdtb15">
-                            <Link className="link orenge-btn" to="#/">
-                              Read More
-                            </Link>
+                          <div className="link-btn d-flex">
+                            <div className="link orenge-btn">
+                              <Link to="#/">Read More</Link>
+                            </div>
                           </div>
                         </div>
                       </div>

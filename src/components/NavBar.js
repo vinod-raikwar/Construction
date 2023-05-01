@@ -3,19 +3,21 @@ import { Container, Navbar, Nav, Form } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
-import { BsSearch } from "react-icons/bs";
+import { BsSearch, BsCart3 } from "react-icons/bs";
 // import { AiOutlineClose } from "react-icons/ai";
 
 function NavBar() {
   return (
     <>
-      <Navbar bg="" expand="lg" className="py-1">
+      <Navbar bg="" expand="lg" className="py-0">
         <Container fluid className="px-0">
           <Navbar.Brand to="/">
             <div className="logo-link ">
-              <Link to="/" className="position-relative">
-                <h3>Logo</h3>
-              </Link>
+              <h3>
+                <Link to="/" className="position-relative">
+                  Logo
+                </Link>
+              </h3>
             </div>
           </Navbar.Brand>
 
@@ -34,14 +36,17 @@ function NavBar() {
               <NavLink to="contact">Contact</NavLink>
             </Nav>
             <div className="d-flex nav-icon">
-              <Form  className="d-flex">
-                <Form.Control
+              <Form className="d-flex">
+                {/* <Form.Control
                   type="search"
                   placeholder="Search..."
-                  aria-label="Search"  
-                />
+                  aria-label="Search"
+                /> */}
                 <span className="search">
                   <BsSearch />
+                </span>
+                <span className="cart-icon">
+                  <BsCart3 />
                 </span>
               </Form>
             </div>
@@ -57,6 +62,3 @@ export default NavBar;
 //  <span className="close">
 //  <AiOutlineClose />
 //  </span>
-//    <span className="cart-icon">
-//     <BsCart3 />
-//   </span>

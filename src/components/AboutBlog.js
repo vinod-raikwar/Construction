@@ -14,7 +14,7 @@ function About() {
         <div className="mrt100 pdb50">
           <Container>
             <Row>
-              <Col xs={12} md={6}>
+              <Col xs={12} md={6} className="align-self-center">
                 <div className="float-image">
                   <div className="image-1">
                     <img src={image_1} alt="" />
@@ -25,7 +25,7 @@ function About() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} md={6}>
+              <Col xs={12} md={6} className="align-self-center">
                 <div className=" pdl50">
                   <div className="main-heading">
                     <span className="span-text ">&nbsp;&nbsp;Construction</span>
@@ -41,7 +41,7 @@ function About() {
                       <Col xs={12} sm={6}>
                         <div className="company-service pt-1">
                           <span>
-                            <MdSquare/>
+                            <MdSquare />
                           </span>
                           <Link to="#/">Lorem ipsum dolor.</Link>
                         </div>
@@ -49,7 +49,7 @@ function About() {
                       <Col xs={12} sm={6}>
                         <div className="company-service pt-1">
                           <span>
-                          <MdSquare/>
+                            <MdSquare />
                           </span>
                           <Link to="#/">Lorem ipsum dolor.</Link>
                         </div>
@@ -57,7 +57,7 @@ function About() {
                       <Col xs={12} sm={6}>
                         <div className="company-service pt-1">
                           <span>
-                          <MdSquare/>
+                            <MdSquare />
                           </span>
                           <Link to="#/">Lorem ipsum dolor.</Link>
                         </div>
@@ -65,7 +65,7 @@ function About() {
                       <Col xs={12} sm={6}>
                         <div className="company-service pt-1">
                           <span>
-                          <MdSquare/>
+                            <MdSquare />
                           </span>
                           <Link to="#/">Lorem ipsum dolor.</Link>
                         </div>
@@ -73,10 +73,10 @@ function About() {
                     </Row>
                   </div>
 
-                  <div className="link-btn">
-                    <Link className="link orenge-btn" to="#/">
-                      Read More
-                    </Link>
+                  <div className="link-btn d-flex">
+                    <div className="link orenge-btn">
+                      <Link to="#/">Read More</Link>
+                    </div>
                   </div>
                 </div>
               </Col>

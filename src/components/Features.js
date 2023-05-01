@@ -4,7 +4,7 @@ import p1 from "../assets/images/project-planning.jpg";
 import p2 from "../assets/images/feature-img.jpg";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Features() {
   return (
@@ -17,7 +17,7 @@ function Features() {
                 <div className="project-planning">
                   <div className="main-heading ps-2">
                     <span className="span-text ">
-                    &nbsp;&nbsp;Construction company
+                      &nbsp;&nbsp;Construction company
                     </span>
                     <h2>Why people choice us?</h2>
                   </div>
@@ -78,10 +78,10 @@ function Features() {
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
-                  <div className="link-btn">
-                    <Link className="link orenge-btn" to="#/">
-                      Read More
-                    </Link>
+                  <div className="link-btn d-flex">
+                    <div className="link orenge-btn">
+                      <Link to="#/">Read More</Link>
+                    </div>
                   </div>
                 </div>
               </Col>

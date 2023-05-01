@@ -169,10 +169,10 @@ function Projects() {
                     </div>
                   </div>
                 </Col>
-                <div className="link-btn text-center mt-5">
-                  <Link className="link orenge-btn" to="#/">
-                    Read More
-                  </Link>
+                <div className="link-btn d-flex justify-content-center mt-5">
+                  <div className="link orenge-btn">
+                    <Link to="#/">Read More</Link>
+                  </div>
                 </div>
               </Row>
             </div>
