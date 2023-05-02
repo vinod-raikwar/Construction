@@ -22,18 +22,10 @@ function Team() {
         <div className="bg-img-css team-bg-img">
           <Container>
             <div className="our-team pdt50">
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-start">
                 <div className="main-heading team-title ">
                   <span className="span-text">&nbsp;&nbsp;Our team</span>
                   <h2>Our Experiance Team Members</h2>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Laudantium debitis porro officiis <br />
-                    ratione veritatis Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Numquam <br />
-                    excepturi officiis perferendis nisi deserunt alias culpa
-                    adipisci modi expedita reiciendis?.
-                  </p>
                 </div>
               </div>
               <div className="mt-4">

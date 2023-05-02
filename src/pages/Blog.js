@@ -1,13 +1,13 @@
 import React from "react";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
-import { Container, Row, Col, Form, Button,Nav } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import archi from "../assets/images/blog/blog-archi.jpg";
 import building from "../assets/images/blog/blog-b-building.jpg";
 import construction from "../assets/images/blog/blog-construction.jpg";
 import planning from "../assets/images/blog/blog-planning.jpg";
-import { MdCalendarMonth,MdRectangle } from "react-icons/md";
+import { MdCalendarMonth, MdRectangle } from "react-icons/md";
 import { FaUser, FaListAlt, FaCommentDots } from "react-icons/fa";
 import { TfiAngleDoubleRight } from "react-icons/tfi";
 import { BsSearch } from "react-icons/bs";
@@ -21,7 +21,7 @@ function Blog() {
             <Row>
               <Col xs={5}>
                 <div className="main-heading ">
-                  <h6 className="wht-clr">Lorem, ipsum dolor.</h6>
+                  <span className="span-text">&nbsp; construction</span>
                   <h1>Blog</h1>
                   <p className="wht-clr">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -35,18 +35,15 @@ function Blog() {
 
         <div className="mrt100">
           <Container>
-            <div className="text-center">
-              <h5>Our Blogs</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
-                non repudiandae cumque ea dolorum consequuntur explicabo ipsum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, non.
-              </p>
+            <div className="d-flex justify-content-center">
+              <div className="main-heading">
+                <span className="span-text">&nbsp;&nbsp;our Blog</span>
+                <h2>Explore Recent Blogs</h2>
+              </div>
             </div>
             <Row>
               <Col xs={12} sm={8}>
-                <div class="post mrt100">
+                <div class="post mrt50">
                   <Row>
                     <Col xs={12} sm={4}>
                       <div className="post-image">
@@ -54,11 +51,11 @@ function Blog() {
                       </div>
                     </Col>
                     <Col xs={12} sm={8}>
-                      <div className="post-content">
+                      <div className="main-heading post-content">
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
-                          <span className="clr-orenge">January 6, 2023</span>
+                          <span>January 6, 2023</span>
                           <FaUser />
                           <span>
                             <Link to="#/"> Lorem Ipsum</Link>
@@ -96,11 +93,11 @@ function Blog() {
                       </div>
                     </Col>
                     <Col xs={12} sm={8}>
-                      <div className="post-content">
+                      <div className="main-heading post-content">
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
-                          <span className="clr-orenge">January 6, 2023</span>
+                          <span>January 6, 2023</span>
                           <FaUser />
                           <span>
                             <Link to="#/"> Lorem Ipsum</Link>
@@ -138,11 +135,11 @@ function Blog() {
                       </div>
                     </Col>
                     <Col xs={12} sm={8}>
-                      <div className="post-content">
+                      <div className="main-heading post-content">
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>
                           <MdCalendarMonth />
-                          <span className="clr-orenge">January 6, 2023</span>
+                          <span>January 6, 2023</span>
                           <FaUser />
                           <span>
                             <Link to="#/"> Lorem Ipsum</Link>
@@ -174,8 +171,9 @@ function Blog() {
                   </Row>
                 </div>
               </Col>
+              {/* ***********Blog Aside Col Start********* */}
               <Col xs={12} sm={4}>
-                <div className="right-sidebar mrt100">
+                <div className="right-sidebar mrt50">
                   <div className="blog-sidebar-box">
                     <h3>Search</h3>
                     <Form className="d-flex header-form">
@@ -263,19 +261,34 @@ function Blog() {
                     <h3>Categories</h3>
                     <div className="category content">
                       <p>
-                        <span className="clr-orenge"><MdRectangle/> </span><Link to="#/">Architect</Link>
+                        <span className="clr-orenge">
+                          <MdRectangle />{" "}
+                        </span>
+                        <Link to="#/">Architect</Link>
                       </p>
                       <p>
-                      <span className="clr-orenge"><MdRectangle/> </span><Link to="#/">Building</Link>
+                        <span className="clr-orenge">
+                          <MdRectangle />{" "}
+                        </span>
+                        <Link to="#/">Building</Link>
                       </p>
                       <p>
-                      <span className="clr-orenge"><MdRectangle/> </span> <Link to="#/">Bridge</Link>
+                        <span className="clr-orenge">
+                          <MdRectangle />{" "}
+                        </span>{" "}
+                        <Link to="#/">Bridge</Link>
                       </p>
                       <p>
-                      <span className="clr-orenge"><MdRectangle/> </span> <Link to="#/">Planning</Link>
+                        <span className="clr-orenge">
+                          <MdRectangle />{" "}
+                        </span>{" "}
+                        <Link to="#/">Planning</Link>
                       </p>
                       <p>
-                      <span className="clr-orenge"><MdRectangle/> </span><Link to="#/">Revonation</Link>
+                        <span className="clr-orenge">
+                          <MdRectangle />{" "}
+                        </span>
+                        <Link to="#/">Revonation</Link>
                       </p>
                     </div>
                   </div>
@@ -283,14 +296,14 @@ function Blog() {
                   <div className="blog-sidebar-box">
                     <h3>Tags</h3>
                     <div className="blog-tags ">
-                        <Nav>
+                      <Nav>
                         <Link to="#/"> Bridge(8)</Link>
                         <Link to="#/"> Renovation(7)</Link>
                         <Link to="#/"> Building(9)</Link>
                         <Link to="#/"> Road(3)</Link>
                         <Link to="#/"> Architect(10)</Link>
                         <Link to="#/"> Construction(12)</Link>
-                        </Nav>
+                      </Nav>
                     </div>
                   </div>
                 </div>

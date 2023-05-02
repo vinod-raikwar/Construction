@@ -25,17 +25,17 @@ function Footer() {
     <>
       <section>
         {/* ********Footer Start********  */}
-        <div className="ftr-bg mrt100">
+        <div className="ftr-bg mrt100 pdt50 pdb50">
           <Container>
             <Row>
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50 pdb50">
-                  <h3>Lorem, Tech</h3>
-                  <div className="ftr-content content ftr">
+                  <h4>Lorem, Tech</h4>
+                  <div className="ftr-content pe-3">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Explicabo voluptatibus necessitatibus odio blanditiis
-                      earum exercitationem.
+                      Get Logo and discover streamlined website construction
+                      today! Powerful elements, tons of flexible layouts and
+                      more inside.
                     </p>
                     <p>
                       <span>
@@ -43,7 +43,7 @@ function Footer() {
                       </span>
                       <Link to="#/">
                         Mon-Sat 8:00-17:30, <br />{" "}
-                        <span style={{ marginLeft: "28px" }}></span>{" "}
+                        <span style={{ marginLeft: "35px" }}></span>{" "}
                         Sunday-CLOSED
                       </Link>
                     </p>
@@ -52,22 +52,22 @@ function Footer() {
               </Col>
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50">
-                  <h3>Our Services</h3>
+                  <h4>Our Services</h4>
                   <div className="ftr-content">
                     <p>
-                       <img src={cs} alt="" />
+                      <img src={cs} alt="" />
                       <Link to="#/">Lorem ipsum dolor sit.</Link>
                     </p>
                     <p>
-                    <img src={hook} alt="" />
+                      <img src={hook} alt="" />
                       <Link to="#/">Lorem ipsum dolor sit.</Link>
                     </p>
                     <p>
-                    <img src={workers} alt="" />
+                      <img src={workers} alt="" />
                       <Link to="#/">Lorem ipsum dolor sit.</Link>
                     </p>
                     <p>
-                    <img src={bp} alt="" />
+                      <img src={bp} alt="" />
                       <Link to="#/">Lorem ipsum dolor sit.</Link>
                     </p>
                   </div>
@@ -75,15 +75,15 @@ function Footer() {
               </Col>
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50">
-                  <h3>Office in Indore </h3>
-                  <div className="ftr-content content ftr">
+                  <h4>Office in Indore </h4>
+                  <div className="ftr-content">
                     <p>
                       <span>
                         <SlLocationPin />
                       </span>
                       <Link to="#/">
                         7300-7398 Colonial Rd, <br />{" "}
-                        <span style={{ marginLeft: "28px" }}></span> Indore, IND
+                        <span style={{ marginLeft: "35px" }}></span> Indore, IND
                         11209
                       </Link>
                     </p>
@@ -101,7 +101,7 @@ function Footer() {
                       </span>
                       <Link to="#/">
                         example1@test.com <br />{" "}
-                        <span style={{ marginLeft: "28px" }}></span>{" "}
+                        <span style={{ marginLeft: "34px" }}></span>{" "}
                         example2@test.com
                       </Link>
                     </p>
@@ -110,7 +110,7 @@ function Footer() {
               </Col>
               <Col xs={12} sm={6} md={3}>
                 <div className="ftr-content-title mrt50">
-                  <h3>Our Location </h3>
+                  <h4>Our Location </h4>
                   <div className="ftr-content">
                     <Link to="#/">
                       <img className="img-fluid" src={map} alt="" />
@@ -124,20 +124,21 @@ function Footer() {
         {/* ********Footer End********  */}
 
         {/* ********Footer Bottom Start********  */}
-        <div className="ftr-btm ftr-bg">
+        <div className="ftr-btm ftr-bg ">
           <Container>
+            <div className="">
             <Row>
-              <Col xs={12} sm={4}>
-                <div className="btm-ftr-left pt-1">
+              <Col xs={12} sm={3}>
+                <div className="btm-ftr-left">
                   <div className="logo-link">
-                    <Link to="#/">
-                      <h3>Logo</h3>
-                    </Link>
+                    <h3>
+                      <Link to="/">Logo</Link>
+                    </h3>
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={4}>
-                <div className="copy-right ftr">
+              <Col xs={12} sm={6}>
+                <div className="copy-right">
                   <p>
                     <span>
                       <MdCopyright />
@@ -147,9 +148,9 @@ function Footer() {
                   </p>
                 </div>
               </Col>
-              <Col xs={12} sm={4}>
+              <Col xs={12} sm={3}>
                 <div className="btm-ftr-right">
-                  <div className="social-icon d-flex justify-content-end">
+                  <div className="social-icon d-flex">
                     <Link to="#/">
                       {" "}
                       <FaTwitter />
@@ -170,6 +171,7 @@ function Footer() {
                 </div>
               </Col>
             </Row>
+            </div>
           </Container>
         </div>
         {/* ********Footer Bottom End********  */}

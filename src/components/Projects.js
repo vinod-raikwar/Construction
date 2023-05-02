@@ -16,7 +16,7 @@ function Projects() {
       <section>
         <div className="mrt100">
           <Container>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-start">
               <div className="main-heading">
                 <span className="span-text">&nbsp;&nbsp;our work</span>
                 <h2>Explore Recent Projects</h2>

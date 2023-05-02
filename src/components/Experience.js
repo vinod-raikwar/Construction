@@ -18,14 +18,7 @@ function Experience() {
             <div>
               <Row>
                 <Col className="align-self-center">
-                  <div className="bg-img-css exp-bg ">
-                    <div data-aos="fade-right">
-                      <img className="img-fluid fade-img" src={exp_1} alt="" />
-                    </div>
-                  </div>
-                </Col>
-                <Col className="align-self-center">
-                  <div className="ps-5">
+                  <div>
                     <div className="main-heading">
                       <span className="span-text ">
                         &nbsp; Construction Experience
@@ -109,6 +102,13 @@ function Experience() {
                           />
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="align-self-center ps-5">
+                  <div className="bg-img-css exp-bg ">
+                    <div data-aos="fade-right">
+                      <img className="img-fluid fade-img" src={exp_1} alt="" />
                     </div>
                   </div>
                 </Col>

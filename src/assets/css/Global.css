@@ -38,7 +38,6 @@ h3,
 h4 {
   font-family: "Poppins-Regular";
   text-transform: capitalize;
-  color: #001659;
   transition: 0.3s;
 }
 h1 {
@@ -46,17 +45,23 @@ h1 {
   text-transform: uppercase;
   font-size: 55px !important;
   line-height: 60px;
+  color: #001659;
 }
 
 .main-heading > h2 {
+  color: #001659;
   font-size: 35px;
   line-height: 50px;
   font-family: "Poppins-SemiBold";
   padding: 5px 0;
 }
-.main-heading > h3 {
-  font-size: 16px;
+.main-heading>h3 {
+  font-size: 25px;
   line-height: 32px;
+  color: #001659;
+}
+h4{
+  color: #ffffff;
 }
 h5{
   font-size: 16px !important;
@@ -66,8 +71,9 @@ h5{
 p {
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  /* color: #000000; */
   font-family: "Poppins-Light";
+  letter-spacing: 0.5;
 }
 .span-text {
   text-transform: uppercase;
@@ -93,9 +99,11 @@ a {
 }
 
 .social-icon a {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 24px 0 0px;
   line-height: 40px;
+  font-family: "Poppins-SemiBold";
+
 }
 .social-icon a:hover {
   color: #ff5e14 !important;
@@ -118,7 +126,8 @@ a {
   color: #000000;
 }
 .wht-clr {
-  color: #fff !important;
+  color: #ffffff;
+  z-index: 5;
 }
 
 

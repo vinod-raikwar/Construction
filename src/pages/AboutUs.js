@@ -17,7 +17,7 @@ function AboutUs() {
             <Row>
               <Col xs={5}>
                 <div className="main-heading ">
-                  <span className="wht-clr">Lorem, ipsum dolor.</span>
+                  <span className="span-text">&nbsp; construction</span>
                   <h1>About Us</h1>
                   <p className="wht-clr">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -29,13 +29,12 @@ function AboutUs() {
           </Container>
         </div>
 
-        <div className="mrt100 ">
+        <div className="mrt50">
           <Container>
-            <Row>
-              <Col xs={12} sm={4}>
+            <Row >
+              <Col xs={12} sm={6} className="d-flex align-self-center">
                 <div className="main-heading">
-                  <h6>Few Word About Lorem</h6>
-                  <h3>Lorem ipsum dolor, sit amet consectetur.</h3>
+                  <h2>Few Word About Lorem</h2>
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Illum iure, nihil nesciunt earum aliquid quaerat provident
@@ -49,14 +48,14 @@ function AboutUs() {
                     Optio neque eligendi ipsum dolore velit ducimus.
                   </p>
                   <div className="link-btn">
-                    <Link className="link orenge-btn" to="#/">
-                      Read More
-                    </Link>
-                  </div>
+                        <div className="link orenge-btn">
+                          <Link to="#/">Read More</Link>
+                        </div>
+                      </div>
                 </div>
               </Col>
-              <Col xs={12} sm={8}>
-                <div className="d-flex justify-content-center">
+              <Col xs={12} sm={6}>
+                <div className=" p-5">
                   <img className="img-fluid" src={m_1} alt="" />
                 </div>
               </Col>
@@ -64,12 +63,12 @@ function AboutUs() {
           </Container>
         </div>
 
-        <div className="mrt100">
+        <div className="mrt50">
           <Container>
             <Row>
               <Col xs={12} sm={4}>
-                <div className="pdr50">
-                  <h3>Keep Your Business Safe & Ensure High Availability.</h3>
+                <div className="main-heading pdr50">
+                  <h2>Keep Your Business Safe & Ensure High Availability.</h2>
                 </div>
               </Col>
               <Col xs={12} sm={4}>
@@ -89,22 +88,20 @@ function AboutUs() {
                     <span>
                       <MdAlternateEmail />
                     </span>
-                    <Link to="#/">
-                      example1@test.com
-                    </Link>
+                    <Link to="#/">example1@test.com</Link>
                   </p>
                   <p>
                     <span>
                       <BsTelephone />
                     </span>
                     <Link to="#/">+ (123) 1234-567-8901</Link> <br />
-                    <span style={{ marginLeft: "16px" }}></span>
+                    <span style={{ marginLeft: "15px" }}></span>
                     <Link to="#/">+ (123) 1234-567-8902</Link>
                   </p>
                 </div>
               </Col>
               <Col xs={12}>
-                <div className="mrt100">
+                <div className="mrt50">
                   <img className="img-fluid" src={b_safe} alt="" />
                 </div>
               </Col>
