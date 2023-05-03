@@ -13,8 +13,9 @@ import l_5 from "../assets/images/testimonial/Layer-5.webp";
 
 function Testimonial() {
   var settings = {
-    dots: false,
     infinite: true,
+    arrows: true,
+		autoplay: true,
     speed: 100,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -26,11 +27,13 @@ function Testimonial() {
           <Container>
             <Row>
               <Col xs={12}>
-                <div >
-                  <div className="d-flex justify-content-center">
+                <div>
+                  <div className="heading-align">
                     <div className="main-heading">
-                    <span className="span-text ">&nbsp;&nbsp;our partners</span>
-                    <h2>Valueds Clients</h2>
+                      <span className="span-text ">
+                        &nbsp;&nbsp;our partners
+                      </span>
+                      <h2>Valueds Clients</h2>
                     </div>
                   </div>
                   <div className="mrt50 box-shadow">

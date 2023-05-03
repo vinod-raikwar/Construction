@@ -17,7 +17,7 @@ function Blog() {
       <section>
         <div className="mrt100">
           <Container>
-            <div className="d-flex justify-content-start">
+            <div className="heading-align">
               <div className="main-heading text-start">
                 <span className="span-text">&nbsp;&nbsp;construction Blog</span>
                 <h2>This is blog posts</h2>

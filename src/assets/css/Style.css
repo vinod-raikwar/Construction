@@ -53,18 +53,15 @@
   line-height: 40px;
   padding: 12px 72px;
   margin-bottom: 0px;
-}
-.logo-link h3 a{
-  font-size: 26px;
   font-family: "Poppins-SemiBold";
+  font-size: 26px;
   color: #ffffff !important;
 }
-
 #navbarScroll a {
   border: 1px solid #9ca5af;
   border-left-width: 0;
   width: 100%;
-  padding: 12px 60px;
+  padding: 12px 62px;
   color: #001659;
   font-weight: 500;
   line-height: 40px;
@@ -82,7 +79,7 @@
   line-height: 30px;
   padding: 17px;
   font-size: 20px;
-  width: 74px;
+  width: 70px;
   text-align: center;
 }
 .search:hover,.cart-icon:hover{
@@ -385,6 +382,21 @@
   height: 110px;
   margin: 50px 0;
 }
+.slick-prev {
+  left: 5px !important;
+  top: 48% !important;
+}
+.slick-next {
+  right: 15px !important;
+  top: 48% !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 30px !important;
+  color: #ff5e14 !important;
+  /* border: 1px solid red; */
+}
 /* ********Testimonial Css End******** */
 
 /* ********Team Css Start******** */
@@ -399,7 +411,8 @@
   content: "";
   width: 100%;
   height: 110vh;
-  background: rgb(0, 22, 89, 0.3);
+  /* background: rgb(0, 22, 89, 0.3); */
+  background-color: #ffffff;
   z-index: 0;
   top: 0;
   left: 0;
@@ -414,10 +427,9 @@
   text-align: start;
   z-index: 1;
 }
-.team-title > h2,
-.team-title > p {
+/* .team-title > h2{
   color: white !important;
-}
+} */
 
 .team-img {
   position: relative;
@@ -435,7 +447,7 @@
   position: absolute;
   bottom: 15px;
   margin: 0 auto;
-  left: 8%;
+  left: -24px;
   right: 0;
   display: flex;
   justify-content: space-evenly;
@@ -592,29 +604,28 @@ span > a:hover {
 
 /* ********Footer Css Start******** */
 .ftr-bg {
-  /* background-color: #001659; */
-  background-color: #000105;
+  background-color: rgb(0, 22, 89);
+  /* background-color: #000105; */
+  position: relative;
 }
-.ftr-content-title h3 {
-  color: #fff !important;
-}
+
 .ftr-content {
   margin-top: 50px;
 }
+.ftr-content p>.sqr-btn{
+  font-size: 8px;
+}
 .ftr-content p>span {
   margin-right: 14px;
-  font-size: 20px;
+  font-size: 23px;
+  color: #ff5e14;
 }
 .ftr-content p a,.ftr-content p {
   color: #9ca5af !important;
+  font-family: "Poppins-SemiBold";
 }
 .ftr-content p:hover a {
   color: #ff5e14 !important;
-}
-.ftr-content p img {
-  width: 35px;
-  height: 35px;
-  margin-right: 14px;
 }
 
 /* ********Footer Bottom Css Start******** */
@@ -671,6 +682,13 @@ span > a:hover {
 }
 
 /* ********Footer Css End******** */
+/* .ftr-bg-img{
+  background-image: url(../images/footer/bg-footer-mape.png);
+  width: 100%;
+  height: 50vh !important;
+} */
+
+
 
 .fixed-img {
   background-image: url("../images/fixed-attached-img.png");

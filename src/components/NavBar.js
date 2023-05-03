@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
 import { BsSearch, BsCart3 } from "react-icons/bs";
+import logo from '../assets/images/logo.webp'
 // import { AiOutlineClose } from "react-icons/ai";
 
 function NavBar() {
@@ -14,10 +15,16 @@ function NavBar() {
           <Row>
             <Col xs={12} md={3} className="p-0">
               <div>
-                <Navbar.Brand>
+                <Navbar.Brand href="/home">
                   <div className="logo-link">
                     <h3>
-                      <Link to="/">Logo</Link>
+                        {/* <img
+                          src={logo}
+                          width="200"
+                          height="50"
+                          alt="React Bootstrap logo"
+                        /> */}
+                        Logo
                     </h3>
                   </div>
                 </Navbar.Brand>
@@ -30,7 +37,8 @@ function NavBar() {
                   <Nav
                     className=" my-lg-0"
                     style={{ maxHeight: "100px" }}
-                    navbarScroll>
+                    navbarScroll
+                  >
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/aboutus">About</NavLink>
                     <NavLink to="/portfolio">Portfolio</NavLink>

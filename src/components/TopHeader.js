@@ -18,7 +18,7 @@ function TopHeader() {
       <div className="top-header">
         <Container fluid>
           <Row>
-            <Col xs={12} sm={6} md={8}>
+            <Col xs={12} sm={6} md={9}>
               <div className="top-header-left">
                 <p>
                   <span>
@@ -40,7 +40,7 @@ function TopHeader() {
                 </p>
               </div>
             </Col>
-            <Col xs={12} sm={6} md={4}>
+            <Col xs={12} sm={6} md={3}>
               <div className="top-header-right">
                 <div className="social-icon d-flex justify-content-end">
                   <Link to="#/">

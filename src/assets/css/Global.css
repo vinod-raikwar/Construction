@@ -31,6 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden !important;
   border: none;
+  /* border: 1px solid red; */
 }
 h1,
 h2,
@@ -47,7 +48,10 @@ h1 {
   line-height: 60px;
   color: #001659;
 }
-
+.heading-align{
+  display: flex;
+  justify-content: start;
+}
 .main-heading > h2 {
   color: #001659;
   font-size: 35px;
@@ -62,6 +66,11 @@ h1 {
 }
 h4{
   color: #ffffff;
+  font-size: 18px !important;
+  font-family: "Poppins-SemiBold";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
 }
 h5{
   font-size: 16px !important;
@@ -71,7 +80,6 @@ h5{
 p {
   font-size: 14px;
   line-height: 24px;
-  /* color: #000000; */
   font-family: "Poppins-Light";
   letter-spacing: 0.5;
 }
@@ -100,7 +108,7 @@ a {
 
 .social-icon a {
   font-size: 15px;
-  margin: 0 24px 0 0px;
+  margin: 0 0 0 24px;
   line-height: 40px;
   font-family: "Poppins-SemiBold";
 

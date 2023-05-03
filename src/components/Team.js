@@ -7,55 +7,49 @@ import t_1 from "../assets/images/team/t-1.jpg";
 import t_2 from "../assets/images/team/t-2.jpg";
 import t_3 from "../assets/images/team/t-3.jpg";
 import t_4 from "../assets/images/team/t-4.jpg";
-
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import {FaTwitter,FaFacebookF,FaInstagram,FaLinkedinIn,} from "react-icons/fa";
 
 function Team() {
+
   return (
     <>
       <section>
         <div className="bg-img-css team-bg-img">
-          <Container>
+          <Container className=" border border-danger">
             <div className="our-team pdt50">
-              <div className="d-flex justify-content-start">
+              <div className="heading-align">
                 <div className="main-heading team-title ">
                   <span className="span-text">&nbsp;&nbsp;Our team</span>
                   <h2>Our Experiance Team Members</h2>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 d-flex justify-content-center">
                 <Row>
                   <Col xs={12} sm={6} md={3}>
                     <div
                       data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
-                      data-aos-duration="2000"
-                    >
-                      <div className="team-content text-center">
+                      data-aos-duration="2000">
+                      <div className="team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_1} alt="" />
-                          <div className="team-icon social-icon">
-                            <Link to="#/">
-                              {" "}
-                              <FaTwitter />
-                            </Link>
-                            <Link to="#/">
-                              {" "}
-                              <FaFacebookF />
-                            </Link>
-                            <Link to="#/">
-                              {" "}
-                              <FaInstagram />
-                            </Link>
-                            <Link to="#/">
-                              {" "}
-                              <FaLinkedinIn />
-                            </Link>
+                            <div className="team-icon social-icon">
+                              <Link to="#/">
+                                {" "}
+                                <FaTwitter />
+                              </Link>
+                              <Link to="#/">
+                                {" "}
+                                <FaFacebookF />
+                              </Link>
+                              <Link to="#/">
+                                {" "}
+                                <FaInstagram />
+                              </Link>
+                              <Link to="#/">
+                                {" "}
+                                <FaLinkedinIn />
+                              </Link>
                           </div>
                         </div>
                         <div className="team-name">
@@ -75,7 +69,7 @@ function Team() {
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center">
+                      <div className="team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_2} alt="" />
                           <div className="team-icon social-icon">
@@ -114,7 +108,7 @@ function Team() {
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center ">
+                      <div className="team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_3} alt="" />
 
@@ -154,7 +148,7 @@ function Team() {
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center">
+                      <div className="team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_4} alt="" />
 
@@ -190,7 +184,7 @@ function Team() {
                   </Col>
                 </Row>
               </div>
-              <div className="link-btn d-flex justify-content-center">
+              <div className="link-btn">
                 <div className="link orenge-btn">
                   <Link to="#/">Read More</Link>
                 </div>

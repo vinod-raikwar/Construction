@@ -16,7 +16,7 @@ function Projects() {
       <section>
         <div className="mrt100">
           <Container>
-            <div className="d-flex justify-content-start">
+            <div className="heading-align">
               <div className="main-heading">
                 <span className="span-text">&nbsp;&nbsp;our work</span>
                 <h2>Explore Recent Projects</h2>
@@ -33,7 +33,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp; Interior</span>
+                      <span className="span-text">&nbsp;&nbsp;Interior</span>
                       <h3>MD Designs</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -57,7 +57,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp; commercial</span>
+                      <span className="span-text">&nbsp;&nbsp;commercial</span>
                       <h3>Binoid architecture</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -81,7 +81,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp; furniture</span>
+                      <span className="span-text">&nbsp;&nbsp;furniture</span>
                       <h3>museum architecture</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -106,7 +106,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp;Designer</span>
+                      <span className="span-text">&nbsp;&nbsp;Designer</span>
                       <h3>Catalyst Architech</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -130,7 +130,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp; commercial</span>
+                      <span className="span-text">&nbsp;&nbsp;commercial</span>
                       <h3>membrane structure</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -154,7 +154,7 @@ function Projects() {
                     </div>
 
                     <div className="project-content">
-                      <span className="span-text">&nbsp;Interior</span>
+                      <span className="span-text">&nbsp;&nbsp;Interior</span>
                       <h3>VR Design</h3>
                       <div className="arrow-btn">
                         <Link className="pt-button" to="#/">
@@ -169,9 +169,9 @@ function Projects() {
                     </div>
                   </div>
                 </Col>
-                <div className="link-btn d-flex justify-content-center mt-5">
+                <div className="link-btn mt-5">
                   <div className="link orenge-btn">
-                    <Link to="#/">Read More</Link>
+                    <Link to="#/">View More</Link>
                   </div>
                 </div>
               </Row>
