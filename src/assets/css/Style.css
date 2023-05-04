@@ -51,7 +51,7 @@
 }
 .logo-link h3{
   line-height: 40px;
-  padding: 12px 72px;
+  padding: 12px 0px;
   margin-bottom: 0px;
   font-family: "Poppins-SemiBold";
   font-size: 26px;
@@ -79,7 +79,7 @@
   line-height: 30px;
   padding: 17px;
   font-size: 20px;
-  width: 70px;
+  width: 67px;
   text-align: center;
 }
 .search:hover,.cart-icon:hover{
@@ -350,7 +350,6 @@
 .card-image:hover img {
   transform: scale(1.15);
 }
-
 .card-content p > span {
   padding-right: 20px;
   color: #565969;
@@ -370,6 +369,7 @@
 .blg-crd-icon {
   color: #ff5e14;
   margin-right: 5px;
+  margin-top: -1px;
 }
 /* ********BlogPost Css End******** */
 /* ********Testimonial Css Start******** */
@@ -400,7 +400,7 @@
 /* ********Testimonial Css End******** */
 
 /* ********Team Css Start******** */
-.team-bg-img {
+/* .team-bg-img {
   background-image: url(../images/team-bg.jpg);
   background-attachment: fixed;
   height: 110vh !important;
@@ -411,8 +411,7 @@
   content: "";
   width: 100%;
   height: 110vh;
-  /* background: rgb(0, 22, 89, 0.3); */
-  background-color: #ffffff;
+  background: rgb(0, 22, 89, 0.3);
   z-index: 0;
   top: 0;
   left: 0;
@@ -422,14 +421,12 @@
 .our-team{
   position: absolute;
   top: 0;
-}
+} */
+
 .team-title {
   text-align: start;
   z-index: 1;
 }
-/* .team-title > h2{
-  color: white !important;
-} */
 
 .team-img {
   position: relative;
@@ -445,37 +442,36 @@
 }
 .team-icon {
   position: absolute;
-  bottom: 15px;
   margin: 0 auto;
-  left: -24px;
+  left: 0;
   right: 0;
   display: flex;
-  justify-content: space-evenly;
   opacity: 0;
   transition: 0.9s;
 }
-.team-content:hover .team-icon{
+.team-content:hover .team-icon {
   opacity: 1;
+  bottom: 0%;
+  transform: translate(0%, -100%);
 }
+
 .team-name {
-  position: relative;
   background-color: rgb(255, 255, 255, 0.9);
   padding: 20px;
   z-index: 4;
 }
-.team-name>p{
-  color: #565969;
+.team-name h4,.team-name>p{
+  color: #565969 !important;
 }
-
 .team-icon a {
   color: #ffffff !important;
   background-color: rgb(0, 22, 89);
-  padding: 5px 15px;
+  padding: 0 12px;
 }
 .team-content:hover .team-name {
   background-color: rgb(255, 94, 20);
 }
-.team-content:hover .team-name h3 a, 
+.team-content:hover .team-name h4 a, 
 .team-content:hover .team-name p b{
   color: #ffffff !important;
 }
@@ -540,6 +536,9 @@ span > a:hover {
 /* ********Portfolio Css End******** */
 
 /* ********Blog Css Start******** */
+.post-image img{
+  height: 400px;
+}
 .post-content p span {
   padding: 0 10px;
 }
@@ -549,14 +548,12 @@ span > a:hover {
 .border-btm-link {
   border-bottom: 2px solid #9ca5af;
   margin-bottom: 45px;
-  width: 95% !important;
 }
-.border-btm-link a {
+.read-more a {
   color: #ff5e14 !important;
 }
-.border-btm-link a span {
+.read-more a span {
   font-size: 14px;
-  margin-right: -14px;
   padding-left: 6px;
 }
 
@@ -576,7 +573,7 @@ span > a:hover {
   padding-top: 20px;
 }
 .btn {
-  border: 1px solid #ff5e14 !important;
+  border: 2px solid #ff5e14 !important;
   border-radius: 0px !important;
   background-color: #ff5e14 !important;
 }
@@ -589,7 +586,7 @@ span > a:hover {
   background-color: #fff;
   border-color: #ff5e14 !important;
   outline: 0;
-  box-shadow: 0 0 0 0 0.25rem rgb(255, 94, 20 0.25rem) !important;
+  box-shadow: none !important;
 }
 
 .blog-tags a {
@@ -608,21 +605,33 @@ span > a:hover {
   /* background-color: #000105; */
   position: relative;
 }
+.ftr-content-title h4{
+  position: relative;
+  padding-bottom: 8px;
+}
+.ftr-content-title h4::before{
+  position: absolute;
+  content: "";
+  width: 6%;
+  height: 2px;
+  background: #ff5e14;
+  left: 0;
+  bottom: 0px;
+  transition: all 0.5s;
+}
+.ftr-content-title:hover ::before{
+  width: 30%;
+}
 
-.ftr-content {
-  margin-top: 50px;
-}
-.ftr-content p>.sqr-btn{
-  font-size: 8px;
-}
 .ftr-content p>span {
   margin-right: 14px;
-  font-size: 23px;
+  font-size: 18px;
   color: #ff5e14;
 }
 .ftr-content p a,.ftr-content p {
   color: #9ca5af !important;
   font-family: "Poppins-SemiBold";
+  margin: 0;
 }
 .ftr-content p:hover a {
   color: #ff5e14 !important;
@@ -630,7 +639,7 @@ span > a:hover {
 
 /* ********Footer Bottom Css Start******** */
 .ftr-btm {
-  border-top: 1px solid #9ca5af;
+  border-top: 1px solid rgb(156, 165, 175,0.3);
   position: relative;
 }
 .copy-right {
@@ -661,7 +670,7 @@ span > a:hover {
   height: 64px;
   margin: 0;
   font-size: 20px;
-  border: 1px solid #9ca5af;
+  border: 1px solid rgb(156, 165, 175,0.3);
   border-top-width: 0;
   transition: all 0.3s ease;
   display: flex;

@@ -15,7 +15,7 @@ function Blog() {
   return (
     <>
       <section>
-        <div className="mrt100">
+        <div className="mrt50 pdb50">
           <Container>
             <div className="heading-align">
               <div className="main-heading text-start">
@@ -24,7 +24,7 @@ function Blog() {
               </div>
             </div>
             <div>
-              <div className="mrt50">
+              <div className="mt-4">
                 <Row>
                   <Col xs={12} sm={6} md={4}>
                     <div className="cards">
@@ -37,25 +37,25 @@ function Blog() {
                         <div class="author-img">
                           <img src={author1} alt="author" />
                         </div>
-                        <div className="card-content pt-4 ms-3">
+                        <div className="card-content pt-4 ms-3 my-auto">
                           <p className="fw-bold mt-3">
                             <span>
                               <span className="blg-crd-icon">
                                 <FaUser />
-                              </span>{" "}
-                              By Lorem
+                              </span>
+                              <span>By Lorem</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
-                              </span>{" "}
-                              April 3, 2023
+                              </span>
+                              <span>April 3, 2023</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>
-                              Planning
+                              <span>Planning</span>
                             </span>
                           </p>
 
@@ -92,20 +92,20 @@ function Blog() {
                             <span>
                               <span className="blg-crd-icon">
                                 <FaUser />
-                              </span>{" "}
-                              By Lorem
+                              </span>
+                              <span>By Lorem</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
-                              </span>{" "}
-                              April 3, 2023
+                              </span>
+                              <span>April 3, 2023</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>
-                              Residential
+                              <span>Residential</span>
                             </span>
                           </p>
                           <Link to="#/">
@@ -141,20 +141,20 @@ function Blog() {
                             <span>
                               <span className="blg-crd-icon">
                                 <FaUser />
-                              </span>{" "}
-                              By Lorem
+                              </span>
+                              <span>By Lorem</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
-                              </span>{" "}
-                              April 3, 2023
+                              </span>
+                              <span>April 3, 2023</span>
                             </span>
                             <span>
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>
-                              Housing
+                              <span>Housing</span>
                             </span>
                           </p>
                           <Link to="#/">

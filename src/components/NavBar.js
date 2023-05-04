@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Navbar, Nav, Form } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
 import { BsSearch, BsCart3 } from "react-icons/bs";
@@ -24,7 +24,7 @@ function NavBar() {
                           height="50"
                           alt="React Bootstrap logo"
                         /> */}
-                        Logo
+                        <i>Construction..</i>
                     </h3>
                   </div>
                 </Navbar.Brand>

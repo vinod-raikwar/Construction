@@ -7,7 +7,7 @@ import {
   MdAccessTimeFilled,
   MdMailOutline,
   MdCopyright,
-  MdSquare,
+  MdOutlineKeyboardDoubleArrowRight,
 } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -25,26 +25,25 @@ function Footer() {
     <>
       <section>
         {/* ********Footer Start********  */}
-        <div className="ftr-bg">
+        <div className="ftr-bg mrt50">
           <Container>
             <div className="pdt50 pdb50">
               <Row>
                 <Col xs={12} sm={6} md={3}>
-                  <div className="ftr-content-title">
-                    <h4>Logo</h4>
-                    <div className="ftr-content pe-3">
+                  <div className="">
+                    <h4>
+                      <i>Construction..</i>
+                    </h4>
+                    <div className="ftr-content mt-4 pe-1">
                       <p>
                         Get Logo and discover streamlined website construction
                         today! Powerful elements, tons of flexible layouts and
                         more inside.
                       </p>
                     </div>
-                    <div className="ftr-content-title">
-                      <h4>
-                        <span className="span-text">&nbsp;&nbsp;</span>
-                        Newsletter
-                      </h4>
-                      <div className="mt-4 pe-4">
+                    <div className="ftr-content-title mt-4">
+                      <h4>Newsletter</h4>
+                      <div className="mt-4 pe-5">
                         <Form className="d-flex">
                           <Form.Control
                             type="search"
@@ -61,38 +60,35 @@ function Footer() {
                 </Col>
                 <Col xs={12} sm={6} md={3}>
                   <div className="ftr-content-title">
-                    <h4>
-                      <span className="span-text">&nbsp;&nbsp;</span>Our
-                      Services
-                    </h4>
-                    <div className="ftr-content">
+                    <h4>Our Services</h4>
+                    <div className="ftr-content mt-4">
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Apartment Design</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Expert Mechanical</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">House Painting</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Repaire Welding</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Construction</Link>
                       </p>
@@ -101,38 +97,35 @@ function Footer() {
                 </Col>
                 <Col xs={12} sm={6} md={3}>
                   <div className="ftr-content-title">
-                    <h4>
-                      <span className="span-text">&nbsp;&nbsp;</span>useful
-                      links
-                    </h4>
-                    <div className="ftr-content">
+                    <h4>useful links</h4>
+                    <div className="ftr-content mt-4">
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Services</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Team</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Privacy & Policy</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Term & Condition</Link>
                       </p>
                       <p>
-                        <span className="sqr-btn">
-                          <MdSquare />
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Contact Us</Link>
                       </p>
@@ -141,11 +134,8 @@ function Footer() {
                 </Col>
                 <Col xs={12} sm={6} md={3}>
                   <div className="ftr-content-title">
-                    <h4>
-                      <span className="span-text">&nbsp;&nbsp;</span>Office in
-                      Indore{" "}
-                    </h4>
-                    <div className="ftr-content">
+                    <h4>Office in Indore</h4>
+                    <div className="ftr-content mt-4">
                       <div className="d-flex">
                         <p>
                           <span>
@@ -160,7 +150,7 @@ function Footer() {
                           </Link>
                         </p>
                       </div>
-                      <div className="d-flex">
+                      <div className="d-flex mt-2">
                         <p>
                           <span>
                             <FaPhoneAlt />
@@ -171,7 +161,7 @@ function Footer() {
                         </p>
                       </div>
 
-                      <div className="d-flex">
+                      <div className="d-flex mt-2">
                         <p>
                           <span>
                             <MdMailOutline />
@@ -182,7 +172,7 @@ function Footer() {
                         </p>
                       </div>
 
-                      <div className="d-flex">
+                      <div className="d-flex mt-2">
                         <p>
                           <span>
                             <MdAccessTimeFilled />
@@ -220,7 +210,7 @@ function Footer() {
                           height="50"
                           alt="React Bootstrap logo"
                         /> */}
-                          Logo
+                          <i>Construction..</i>
                         </h3>
                       </div>
                     </Navbar.Brand>
@@ -238,7 +228,7 @@ function Footer() {
                   </div>
                 </Col>
                 <Col xs={12} sm={3}>
-                  <div className="btm-ftr-right">
+                  <div className="btm-ftr-right d-flex justify-content-end">
                     <div className="social-icon d-flex">
                       <Link to="#/">
                         {" "}

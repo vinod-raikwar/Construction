@@ -14,7 +14,7 @@ function Experience() {
     
     <>
       <section>
-        <div className="mrt100 ">
+        <div className="mrt50">
           <Container>
             <div>
               <Row>

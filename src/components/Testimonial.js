@@ -23,7 +23,7 @@ function Testimonial() {
   return (
     <>
       <section>
-        <div className="mrt100">
+        <div className="mrt50 pdb50">
           <Container>
             <Row>
               <Col xs={12}>
@@ -36,7 +36,7 @@ function Testimonial() {
                       <h2>Valueds Clients</h2>
                     </div>
                   </div>
-                  <div className="mrt50 box-shadow">
+                  <div className="mt-4 box-shadow">
                     <Slider {...settings}>
                       <div className="pdtb20 effect d-flex justify-content-center">
                         <img className="img-fluid" src={l_1} alt="" />

@@ -45,129 +45,143 @@ function Blog() {
               <Col xs={12} sm={8}>
                 <div class="post mrt50">
                   <Row>
-                    <Col xs={12} sm={4}>
-                      <div className="post-image">
-                        <img className="img-fluid" src={archi} alt="" />
+                    <Col xs={12}>
+                      <div
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000"
+                      >
+                      <div className="pe-5">
+                        <div className="post-image">
+                          <img className="img-fluid w-100" src={archi} alt="" />
+                        </div>
+                        <div className="main-heading post-content border-btm-link pdtb20">
+                          <h3>Lorem, ipsum dolor.</h3>
+                          <p>
+                            <MdCalendarMonth />
+                            <span>January 6, 2023</span>
+                            <FaUser />
+                            <span>
+                              <Link to="#/"> Lorem Ipsum</Link>
+                            </span>
+                            <FaListAlt />
+                            <span>
+                              <Link to="#/">Uncategorized</Link>
+                            </span>
+                            <FaCommentDots />
+                            <span>Off</span>
+                          </p>
+                          <p className="clr-black ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eos suscipit quas temporibus quod aut incidunt
+                            at atque rerum, natus deserunt consectetur ullam rem
+                            harum? Nesciunt dignissimos dicta veniam distinctio
+                            quae.
+                          </p>
+                          <div className="read-more">
+                            <Link to="#/">
+                              Read More
+                              <span>
+                                <TfiAngleDoubleRight />{" "}
+                              </span>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
                       </div>
                     </Col>
-                    <Col xs={12} sm={8}>
-                      <div className="main-heading post-content">
-                        <h3>Lorem, ipsum dolor.</h3>
-                        <p>
-                          <MdCalendarMonth />
-                          <span>January 6, 2023</span>
-                          <FaUser />
-                          <span>
-                            <Link to="#/"> Lorem Ipsum</Link>
-                          </span>
-                          <FaListAlt />
-                          <span>
-                            <Link to="#/">Uncategorized</Link>
-                          </span>
-                          <FaCommentDots />
-                          <span>Off</span>
-                        </p>
-                        <p className="clr-black ">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Eos suscipit quas temporibus quod aut incidunt
-                          at atque rerum, natus deserunt consectetur ullam rem
-                          harum? Nesciunt dignissimos dicta veniam distinctio
-                          quae.
-                        </p>
-                      </div>
-                    </Col>
-                    <div className="text-end border-btm-link">
-                      <Link to="#/">
-                        Read More
-                        <span>
-                          <TfiAngleDoubleRight />{" "}
-                        </span>
-                      </Link>
-                    </div>
                   </Row>
 
                   <Row>
-                    <Col xs={12} sm={4}>
-                      <div className="post-image">
-                        <img className="img-fluid" src={building} alt="" />
+                    <Col xs={12}>
+                      <div className="pe-5">
+                        <div className="post-image">
+                          <img
+                            className="img-fluid w-100"
+                            src={building}
+                            alt=""
+                          />
+                        </div>
+                        <div className="main-heading post-content border-btm-link pdtb20">
+                          <h3>Lorem, ipsum dolor.</h3>
+                          <p>
+                            <MdCalendarMonth />
+                            <span>January 6, 2023</span>
+                            <FaUser />
+                            <span>
+                              <Link to="#/"> Lorem Ipsum</Link>
+                            </span>
+                            <FaListAlt />
+                            <span>
+                              <Link to="#/">Uncategorized</Link>
+                            </span>
+                            <FaCommentDots />
+                            <span>Off</span>
+                          </p>
+                          <p className="clr-black ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eos suscipit quas temporibus quod aut incidunt
+                            at atque rerum, natus deserunt consectetur ullam rem
+                            harum? Nesciunt dignissimos dicta veniam distinctio
+                            quae.
+                          </p>
+                          <div className="read-more">
+                            <Link to="#/">
+                              Read More
+                              <span>
+                                <TfiAngleDoubleRight />{" "}
+                              </span>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </Col>
-                    <Col xs={12} sm={8}>
-                      <div className="main-heading post-content">
-                        <h3>Lorem, ipsum dolor.</h3>
-                        <p>
-                          <MdCalendarMonth />
-                          <span>January 6, 2023</span>
-                          <FaUser />
-                          <span>
-                            <Link to="#/"> Lorem Ipsum</Link>
-                          </span>
-                          <FaListAlt />
-                          <span>
-                            <Link to="#/">Uncategorized</Link>
-                          </span>
-                          <FaCommentDots />
-                          <span>Off</span>
-                        </p>
-                        <p className="clr-black ">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Eos suscipit quas temporibus quod aut incidunt
-                          at atque rerum, natus deserunt consectetur ullam rem
-                          harum? Nesciunt dignissimos dicta veniam distinctio
-                          quae.
-                        </p>
-                      </div>
-                    </Col>
-                    <div className="text-end border-btm-link">
-                      <Link to="#/">
-                        Read More
-                        <span>
-                          <TfiAngleDoubleRight />{" "}
-                        </span>
-                      </Link>
-                    </div>
                   </Row>
 
                   <Row>
-                    <Col xs={12} sm={4}>
-                      <div className="post-image">
-                        <img className="img-fluid" src={construction} alt="" />
+                    <Col xs={12}>
+                      <div className="pe-5">
+                        <div className="post-image">
+                          <img
+                            className="img-fluid w-100"
+                            src={construction}
+                            alt=""
+                          />
+                        </div>
+                        <div className="main-heading post-content border-btm-link pdtb20">
+                          <h3>Lorem, ipsum dolor.</h3>
+                          <p>
+                            <MdCalendarMonth />
+                            <span>January 6, 2023</span>
+                            <FaUser />
+                            <span>
+                              <Link to="#/"> Lorem Ipsum</Link>
+                            </span>
+                            <FaListAlt />
+                            <span>
+                              <Link to="#/">Uncategorized</Link>
+                            </span>
+                            <FaCommentDots />
+                            <span>Off</span>
+                          </p>
+                          <p className="clr-black ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eos suscipit quas temporibus quod aut incidunt
+                            at atque rerum, natus deserunt consectetur ullam rem
+                            harum? Nesciunt dignissimos dicta veniam distinctio
+                            quae.
+                          </p>
+                          <div className="read-more">
+                            <Link to="#/">
+                              Read More
+                              <span>
+                                <TfiAngleDoubleRight />{" "}
+                              </span>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </Col>
-                    <Col xs={12} sm={8}>
-                      <div className="main-heading post-content">
-                        <h3>Lorem, ipsum dolor.</h3>
-                        <p>
-                          <MdCalendarMonth />
-                          <span>January 6, 2023</span>
-                          <FaUser />
-                          <span>
-                            <Link to="#/"> Lorem Ipsum</Link>
-                          </span>
-                          <FaListAlt />
-                          <span>
-                            <Link to="#/">Uncategorized</Link>
-                          </span>
-                          <FaCommentDots />
-                          <span>Off</span>
-                        </p>
-                        <p className="clr-black ">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Eos suscipit quas temporibus quod aut incidunt
-                          at atque rerum, natus deserunt consectetur ullam rem
-                          harum? Nesciunt dignissimos dicta veniam distinctio
-                          quae.
-                        </p>
-                      </div>
-                    </Col>
-                    <div className="text-end border-btm-link">
-                      <Link to="#/">
-                        Read More
-                        <span>
-                          <TfiAngleDoubleRight />{" "}
-                        </span>
-                      </Link>
-                    </div>
                   </Row>
                 </div>
               </Col>
@@ -199,7 +213,9 @@ function Blog() {
                         />
 
                         <div className="ps-2">
-                          <h6 className="clr-orenge">February 19, 2023</h6>
+                          <p className="clr-orenge m-0">
+                            <strong>February 19, 2023</strong>
+                          </p>
                           <p className="clr-black">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
@@ -215,7 +231,9 @@ function Blog() {
                         />
 
                         <div className="ps-2">
-                          <h6 className="clr-orenge">February 19, 2023</h6>
+                          <p className="clr-orenge m-0">
+                            <strong>February 19, 2023</strong>
+                          </p>
                           <p className="clr-black">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
@@ -231,7 +249,9 @@ function Blog() {
                         />
 
                         <div className="ps-2">
-                          <h6 className="clr-orenge">February 19, 2023</h6>
+                          <p className="clr-orenge m-0">
+                            <strong>February 19, 2023</strong>
+                          </p>
                           <p className="clr-black">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
@@ -247,7 +267,9 @@ function Blog() {
                         />
 
                         <div className="ps-2">
-                          <h6 className="clr-orenge">February 19, 2023</h6>
+                          <p className="clr-orenge m-0">
+                            <strong>February 19, 2023</strong>
+                          </p>
                           <p className="clr-black">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.

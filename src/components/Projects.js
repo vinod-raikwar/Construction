@@ -14,7 +14,7 @@ function Projects() {
   return (
     <>
       <section>
-        <div className="mrt100">
+        <div className="mrt50">
           <Container>
             <div className="heading-align">
               <div className="main-heading">
@@ -22,7 +22,7 @@ function Projects() {
                 <h2>Explore Recent Projects</h2>
               </div>
             </div>
-            <div className="mrt50">
+            <div className="mt-3">
               <Row>
                 <Col xs={12} sm={6} md={4}>
                   <div className="project mrtb15">

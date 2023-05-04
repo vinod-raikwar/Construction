@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs.js";
 import Portfolio from './pages/Portfolio.js';
 import Blog from './pages/Blog.js';
 
+import 'animate.css';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
