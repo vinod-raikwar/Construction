@@ -23,7 +23,7 @@ function Portfolio() {
             <Row>
               <Col xs={5}>
                 <div className="main-heading ">
-                  <span className="span-text">&nbsp; construction</span>
+                  <span className="span-text">&nbsp;&nbsp;construction</span>
                   <h1>Portfolio</h1>
                   <p className="wht-clr">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -35,7 +35,7 @@ function Portfolio() {
           </Container>
         </div>
 
-        <div className="mrt100">
+        <div className="mrt50">
           <Container>
             <Col xs={12}>
               <div className=""></div>
@@ -248,7 +248,7 @@ function Portfolio() {
                 </div>
               </Col>
             </Row>
-            <div className="link-btn d-flex justify-content-center">
+            <div className="link-btn d-flex justify-content-start">
               <div className="link orenge-btn">
                 <Link to="#/">View More</Link>
               </div>

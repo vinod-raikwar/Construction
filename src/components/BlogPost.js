@@ -37,21 +37,21 @@ function Blog() {
                         <div class="author-img">
                           <img src={author1} alt="author" />
                         </div>
-                        <div className="card-content pt-4 ms-3 my-auto">
-                          <p className="fw-bold mt-3">
-                            <span>
-                              <span className="blg-crd-icon">
+                        <div className="card-content pt-4 ms-3 ">
+                          <p className="blog-meta fw-bold mt-3 ">
+                            <span className="blog-author">
+                              <span className="blg-crd-icon ">
                                 <FaUser />
                               </span>
                               <span>By Lorem</span>
                             </span>
-                            <span>
+                            <span className="blog-date">
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
                               </span>
                               <span>April 3, 2023</span>
                             </span>
-                            <span>
+                            <span className="blog-tag">
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>
@@ -88,20 +88,20 @@ function Blog() {
                           <img src={author2} alt="author" />
                         </div>
                         <div className="card-content pt-4 ms-3">
-                          <p className="fw-bold mt-3">
-                            <span>
+                          <p className="blog-meta fw-bold mt-3">
+                            <span className="blog-author">
                               <span className="blg-crd-icon">
                                 <FaUser />
                               </span>
                               <span>By Lorem</span>
                             </span>
-                            <span>
+                            <span className="blog-date">
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
                               </span>
                               <span>April 3, 2023</span>
                             </span>
-                            <span>
+                            <span className="blog-tag">
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>
@@ -137,20 +137,20 @@ function Blog() {
                           <img src={author3} alt="author" />
                         </div>
                         <div className="card-content pt-4 ms-3">
-                          <p className="fw-bold mt-3">
-                            <span>
+                          <p className="blog-meta fw-bold mt-3">
+                            <span className="blog-author">
                               <span className="blg-crd-icon">
                                 <FaUser />
                               </span>
                               <span>By Lorem</span>
                             </span>
-                            <span>
+                            <span className="blog-date">
                               <span className="blg-crd-icon">
                                 <FaRegCalendarAlt />
                               </span>
                               <span>April 3, 2023</span>
                             </span>
-                            <span>
+                            <span className="blog-tag">
                               <span className="blg-crd-icon">
                                 <FaTags />
                               </span>

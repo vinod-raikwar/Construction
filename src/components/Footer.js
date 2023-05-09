@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Navbar, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../assets/css/Style.css";
 import "../assets/css/Global.css";
@@ -30,10 +30,8 @@ function Footer() {
             <div className="pdt50 pdb50">
               <Row>
                 <Col xs={12} sm={6} md={3}>
-                  <div className="">
-                    <h4>
-                      <i>Construction..</i>
-                    </h4>
+                  <div className="ftr-content-title">
+                    <div className="logo pt-4 mt-2"></div>
                     <div className="ftr-content mt-4 pe-1">
                       <p>
                         Get Logo and discover streamlined website construction
@@ -103,6 +101,24 @@ function Footer() {
                         <span className="arrow-btn">
                           <MdOutlineKeyboardDoubleArrowRight />
                         </span>
+                        <Link to="#/">About</Link>
+                      </p>
+                      <p>
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
+                        </span>
+                        <Link to="#/">Portfolio</Link>
+                      </p>
+                      <p>
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
+                        </span>
+                        <Link to="#/">Blog</Link>
+                      </p>
+                      <p>
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
+                        </span>
                         <Link to="#/">Services</Link>
                       </p>
                       <p>
@@ -110,6 +126,13 @@ function Footer() {
                           <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Team</Link>
+                      </p>
+
+                      <p>
+                        <span className="arrow-btn">
+                          <MdOutlineKeyboardDoubleArrowRight />
+                        </span>
+                        <Link to="#/">Contact Us</Link>
                       </p>
                       <p>
                         <span className="arrow-btn">
@@ -122,12 +145,6 @@ function Footer() {
                           <MdOutlineKeyboardDoubleArrowRight />
                         </span>
                         <Link to="#/">Term & Condition</Link>
-                      </p>
-                      <p>
-                        <span className="arrow-btn">
-                          <MdOutlineKeyboardDoubleArrowRight />
-                        </span>
-                        <Link to="#/">Contact Us</Link>
                       </p>
                     </div>
                   </div>
@@ -144,15 +161,13 @@ function Footer() {
                         </p>
                         <p>
                           <Link to="#/">
-                            Plot no. 14, PU-3, Scheme no. 53, Bhamori, Opposite
-                            Orbit Mall, AB Rd, Behind Pakiza Mall, LIG Colony,
-                            Indore, Madhya Pradesh 452001
+                          Plot no.14 AirenHeight, Opposite Orbit Mall, AB Rd, Indore, Madhya Pradesh 452001
                           </Link>
                         </p>
                       </div>
                       <div className="d-flex mt-2">
                         <p>
-                          <span>
+                          <span className="p-icn-s">
                             <FaPhoneAlt />
                           </span>
                         </p>
@@ -180,7 +195,7 @@ function Footer() {
                         </p>
                         <p>
                           <Link to="#/">
-                            Mon-Sat 8:00-17:30, <br />
+                            Mon-Sat 08:00AM-17:30PM, <br />
                             Sunday-CLOSED
                           </Link>
                         </p>
@@ -199,35 +214,20 @@ function Footer() {
           <Container>
             <div className="">
               <Row>
-                <Col xs={12} sm={3}>
+                <Col xs={12} sm={6}>
                   <div className="btm-ftr-left">
-                    <Navbar.Brand href="/home">
-                      <div className="logo-link">
-                        <h3>
-                          {/* <img
-                          src={logo}
-                          width="200"
-                          height="50"
-                          alt="React Bootstrap logo"
-                        /> */}
-                          <i>Construction..</i>
-                        </h3>
-                      </div>
-                    </Navbar.Brand>
+                    <div className="copy-right">
+                      <p>
+                        <span>
+                          <MdCopyright />
+                        </span>
+                        2023 &nbsp;<Link to="#/">Qode Interactive</Link>, All
+                        Rights Reserved
+                      </p>
+                    </div>
                   </div>
                 </Col>
                 <Col xs={12} sm={6}>
-                  <div className="copy-right">
-                    <p>
-                      <span>
-                        <MdCopyright />
-                      </span>
-                      2023 &nbsp;<Link to="#/">Qode Interactive</Link>, All
-                      Rights Reserved
-                    </p>
-                  </div>
-                </Col>
-                <Col xs={12} sm={3}>
                   <div className="btm-ftr-right d-flex justify-content-end">
                     <div className="social-icon d-flex">
                       <Link to="#/">

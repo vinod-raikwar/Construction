@@ -33,9 +33,9 @@ function Blog() {
           </Container>
         </div>
 
-        <div className="mrt100">
+        <div className="mrt50">
           <Container>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-start">
               <div className="main-heading">
                 <span className="span-text">&nbsp;&nbsp;our Blog</span>
                 <h2>Explore Recent Blogs</h2>
@@ -51,43 +51,63 @@ function Blog() {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                       >
-                      <div className="pe-5">
-                        <div className="post-image">
-                          <img className="img-fluid w-100" src={archi} alt="" />
-                        </div>
-                        <div className="main-heading post-content border-btm-link pdtb20">
-                          <h3>Lorem, ipsum dolor.</h3>
-                          <p>
-                            <MdCalendarMonth />
-                            <span>January 6, 2023</span>
-                            <FaUser />
-                            <span>
-                              <Link to="#/"> Lorem Ipsum</Link>
-                            </span>
-                            <FaListAlt />
-                            <span>
-                              <Link to="#/">Uncategorized</Link>
-                            </span>
-                            <FaCommentDots />
-                            <span>Off</span>
-                          </p>
-                          <p className="clr-black ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Eos suscipit quas temporibus quod aut incidunt
-                            at atque rerum, natus deserunt consectetur ullam rem
-                            harum? Nesciunt dignissimos dicta veniam distinctio
-                            quae.
-                          </p>
-                          <div className="read-more">
-                            <Link to="#/">
-                              Read More
-                              <span>
-                                <TfiAngleDoubleRight />{" "}
+                        <div className="pe-5">
+                          <div className="post-image">
+                            <img
+                              className="img-fluid w-100"
+                              src={archi}
+                              alt=""
+                            />
+                          </div>
+                          <div className="main-heading post-content border-btm-link pdtb20">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p className="blog-meta fw-bold mt-3 ">
+                              <span className="blog-date me-5">
+                                <span className="blg-crd-icon">
+                                  <MdCalendarMonth />
+                                </span>
+                                <span>April 3, 2023</span>
                               </span>
-                            </Link>
+
+                              <span className="blog-author me-5">
+                                <span className="blg-crd-icon ">
+                                  <FaUser />
+                                </span>
+                                <span>By Lorem</span>
+                              </span>
+
+                              <span className="blog-ctgry me-5">
+                                <span className="blg-crd-icon">
+                                  <FaListAlt />
+                                </span>
+                                <span>Uncategorized</span>
+                              </span>
+
+                              <span className="blog-msg me-5">
+                                <span className="blg-crd-icon">
+                                  <FaCommentDots />
+                                </span>
+                                <span>Off</span>
+                              </span>
+                            </p>
+
+                            <p className="clr-black ">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Eos suscipit quas temporibus quod aut
+                              incidunt at atque rerum, natus deserunt
+                              consectetur ullam rem harum? Nesciunt dignissimos
+                              dicta veniam distinctio quae.
+                            </p>
+                            <div className="read-more">
+                              <Link to="#/">
+                                Read More
+                                <span>
+                                  <TfiAngleDoubleRight />{" "}
+                                </span>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
                       </div>
                     </Col>
                   </Row>
@@ -104,19 +124,34 @@ function Blog() {
                         </div>
                         <div className="main-heading post-content border-btm-link pdtb20">
                           <h3>Lorem, ipsum dolor.</h3>
-                          <p>
-                            <MdCalendarMonth />
-                            <span>January 6, 2023</span>
-                            <FaUser />
-                            <span>
-                              <Link to="#/"> Lorem Ipsum</Link>
+                          <p className="blog-meta fw-bold mt-3 ">
+                            <span className="blog-date me-5">
+                              <span className="blg-crd-icon">
+                                <MdCalendarMonth />
+                              </span>
+                              <span>April 3, 2023</span>
                             </span>
-                            <FaListAlt />
-                            <span>
-                              <Link to="#/">Uncategorized</Link>
+
+                            <span className="blog-author me-5">
+                              <span className="blg-crd-icon ">
+                                <FaUser />
+                              </span>
+                              <span>By Lorem</span>
                             </span>
-                            <FaCommentDots />
-                            <span>Off</span>
+
+                            <span className="blog-ctgry me-5">
+                              <span className="blg-crd-icon">
+                                <FaListAlt />
+                              </span>
+                              <span>Uncategorized</span>
+                            </span>
+
+                            <span className="blog-msg me-5">
+                              <span className="blg-crd-icon">
+                                <FaCommentDots />
+                              </span>
+                              <span>Off</span>
+                            </span>
                           </p>
                           <p className="clr-black ">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -150,19 +185,34 @@ function Blog() {
                         </div>
                         <div className="main-heading post-content border-btm-link pdtb20">
                           <h3>Lorem, ipsum dolor.</h3>
-                          <p>
-                            <MdCalendarMonth />
-                            <span>January 6, 2023</span>
-                            <FaUser />
-                            <span>
-                              <Link to="#/"> Lorem Ipsum</Link>
+                          <p className="blog-meta fw-bold mt-3 ">
+                            <span className="blog-date me-5">
+                              <span className="blg-crd-icon">
+                                <MdCalendarMonth />
+                              </span>
+                              <span>April 3, 2023</span>
                             </span>
-                            <FaListAlt />
-                            <span>
-                              <Link to="#/">Uncategorized</Link>
+
+                            <span className="blog-author me-5">
+                              <span className="blg-crd-icon ">
+                                <FaUser />
+                              </span>
+                              <span>By Lorem</span>
                             </span>
-                            <FaCommentDots />
-                            <span>Off</span>
+
+                            <span className="blog-ctgry me-5">
+                              <span className="blg-crd-icon">
+                                <FaListAlt />
+                              </span>
+                              <span>Uncategorized</span>
+                            </span>
+
+                            <span className="blog-msg me-5">
+                              <span className="blg-crd-icon">
+                                <FaCommentDots />
+                              </span>
+                              <span>Off</span>
+                            </span>
                           </p>
                           <p className="clr-black ">
                             Lorem ipsum dolor sit amet consectetur adipisicing

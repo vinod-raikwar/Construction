@@ -7,6 +7,7 @@ import Home from "./pages/Home.js";
 import AboutUs from "./pages/AboutUs.js";
 import Portfolio from './pages/Portfolio.js';
 import Blog from './pages/Blog.js';
+import Contact from './pages/Contact.js';
 
 import 'animate.css';
 import { useEffect } from 'react';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />}/>
           <Route path="/portfolio" element={<Portfolio />}/>
           <Route path="/blog" element={<Blog />}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
