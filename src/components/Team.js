@@ -28,15 +28,15 @@ function Team() {
                   <h2>Team Members</h2>
                 </div>
               </div>
-              <div className="mt-4 d-flex justify-content-center">
+              <div className=" d-flex justify-content-center">
                 <Row>
-                  <Col xs={12} sm={6} md={3}>
+                  <Col xs={12} md={6} lg={3}>
                     <div
                       data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center box-shadow">
+                      <div className="mt-4 team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_1} alt="" />
                           <div className="team-icon social-icon">
@@ -69,13 +69,13 @@ function Team() {
                       </div>
                     </div>
                   </Col>
-                  <Col xs={12} sm={6} md={3}>
+                  <Col xs={12} md={6} lg={3}>
                     <div
                       data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center box-shadow">
+                      <div className="mt-4 team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_2} alt="" />
                           <div className="team-icon social-icon">
@@ -108,13 +108,13 @@ function Team() {
                       </div>
                     </div>
                   </Col>
-                  <Col xs={12} sm={6} md={3}>
+                  <Col xs={12} md={6} lg={3}>
                     <div
                       data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center box-shadow">
+                      <div className="mt-4 team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_3} alt="" />
                           <div className="team-icon social-icon">
@@ -147,13 +147,13 @@ function Team() {
                       </div>
                     </div>
                   </Col>
-                  <Col xs={12} sm={6} md={3}>
+                  <Col xs={12} md={6} lg={3}>
                     <div
                       data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
                       data-aos-duration="2000"
                     >
-                      <div className="team-content text-center box-shadow">
+                      <div className="mt-4 team-content text-center box-shadow">
                         <div className="team-img">
                           <img className="img-fluid" src={t_4} alt="" />
 

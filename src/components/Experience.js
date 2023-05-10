@@ -18,7 +18,7 @@ function Experience() {
           <Container>
             <div>
               <Row>
-                <Col className="align-self-center">
+                <Col xs={12} md={6} className="align-self-center">
                   <div>
                     <div className="main-heading">
                       <span className="span-text ">
@@ -106,7 +106,7 @@ function Experience() {
                     </div>
                   </div>
                 </Col>
-                <Col className="align-self-center ps-5">
+                <Col xs={12} md={6} className="align-self-center pdl50 pdtb20">
                   <div className="bg-img-css exp-bg ">
                     <div data-aos="fade-right">
                       <img className="img-fluid fade-img" src={exp_1} alt="" />

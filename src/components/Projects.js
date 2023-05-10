@@ -169,7 +169,7 @@ function Projects() {
                     </div>
                   </div>
                 </Col>
-                <div className="link-btn mt-5">
+                <div className="link-btn mrt50">
                   <div className="link orenge-btn">
                     <Link to="#/">View More</Link>
                   </div>

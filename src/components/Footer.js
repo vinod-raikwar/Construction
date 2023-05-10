@@ -29,8 +29,8 @@ function Footer() {
           <Container>
             <div className="pdt50 pdb50">
               <Row>
-                <Col xs={12} sm={6} md={3}>
-                  <div className="ftr-content-title">
+                <Col xs={12} md={6} lg={3}>
+                  <div className="ftr-content-title pb-4 ">
                     <div className="logo pt-4 mt-2"></div>
                     <div className="ftr-content mt-4 pe-1">
                       <p>
@@ -39,9 +39,9 @@ function Footer() {
                         more inside.
                       </p>
                     </div>
-                    <div className="ftr-content-title mt-4">
+                    <div className="ftr-content-title mt-4 pe-3">
                       <h4>Newsletter</h4>
-                      <div className="mt-4 pe-5">
+                      <div className="mt-4">
                         <Form className="d-flex">
                           <Form.Control
                             type="search"
@@ -56,8 +56,8 @@ function Footer() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3}>
-                  <div className="ftr-content-title">
+                <Col xs={12} md={6} lg={3}>
+                  <div className="ftr-content-title pb-4 ">
                     <h4>Our Services</h4>
                     <div className="ftr-content mt-4">
                       <p>
@@ -93,8 +93,8 @@ function Footer() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3}>
-                  <div className="ftr-content-title">
+                <Col xs={12} md={6} lg={3}>
+                  <div className="ftr-content-title pb-4 ">
                     <h4>useful links</h4>
                     <div className="ftr-content mt-4">
                       <p>
@@ -149,8 +149,8 @@ function Footer() {
                     </div>
                   </div>
                 </Col>
-                <Col xs={12} sm={6} md={3}>
-                  <div className="ftr-content-title">
+                <Col xs={12} md={6} lg={3}>
+                  <div className="ftr-content-title pb-4 ">
                     <h4>Office in Indore</h4>
                     <div className="ftr-content mt-4">
                       <div className="d-flex">
@@ -212,23 +212,21 @@ function Footer() {
         {/* ********Footer Bottom Start********  */}
         <div className="ftr-btm ftr-bg ">
           <Container>
-            <div className="">
+            <div className="vertical-middle">
               <Row>
-                <Col xs={12} sm={6}>
+                <Col xs={12} sm={6} >
                   <div className="btm-ftr-left">
-                    <div className="copy-right">
-                      <p>
+                      <p className="copy-right">
                         <span>
                           <MdCopyright />
                         </span>
                         2023 &nbsp;<Link to="#/">Qode Interactive</Link>, All
                         Rights Reserved
                       </p>
-                    </div>
                   </div>
                 </Col>
                 <Col xs={12} sm={6}>
-                  <div className="btm-ftr-right d-flex justify-content-end">
+                  <div className="btm-ftr-right ">
                     <div className="social-icon d-flex">
                       <Link to="#/">
                         {" "}

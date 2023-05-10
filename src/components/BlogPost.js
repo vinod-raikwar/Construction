@@ -24,7 +24,7 @@ function Blog() {
               </div>
             </div>
             <div>
-              <div className="mt-4">
+              <div className="">
                 <Row>
                   <Col xs={12} sm={6} md={4}>
                     <div className="cards">

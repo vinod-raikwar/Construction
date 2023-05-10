@@ -18,8 +18,8 @@ function Banner() {
             <Container>
               <div>
                 <Row>
-                  <Col xs={6}>
-                    <div>
+                  <Col xs={12} md={6}>
+                    <div className="p-2 pdtb20">
                       <div className="slider-heading">
                         <span className="span-text">&nbsp; construction</span>
                         <h1>Lorem ipsum dolor sit amet</h1>
@@ -55,8 +55,8 @@ function Banner() {
             <Container>
               <div>
                 <Row>
-                  <Col xs={6}>
-                    <div>
+                  <Col  xs={12} md={6}>
+                    <div className="p-2 pdtb20">
                       <div className="slider-heading">
                         <span className="span-text">&nbsp; construction</span>
                         <h1>Lorem ipsum dolor sit amet</h1>
@@ -92,8 +92,8 @@ function Banner() {
             <Container>
               <div>
                 <Row>
-                  <Col xs={6}>
-                    <div>
+                  <Col  xs={12} md={6}>
+                    <div className="p-2 pdtb20">
                       <div className="slider-heading">
                         <span className="span-text">&nbsp; construction</span>
                         <h1>Lorem ipsum dolor sit amet</h1>

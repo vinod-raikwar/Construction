@@ -46,64 +46,173 @@
 /* ********TopHeader Resp Css End*******/
 
 /* ********NavBar Resp Css Start*******/
-@media (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .logo-link h3 i {
-    line-height: 50px;
-    padding: 10px 0px;
-    font-size: 20px;
+    line-height: 45px;
+    font-size: 15px;
+  }
+  .logo-link h3 {
+    padding: 0 15px;
   }
   #navbarScroll a {
-    line-height: 40px;
-    padding: 5px 60px;
+    line-height: 50px;
   }
   .nav-icon > span {
-    padding: 10px;
-    width: 62px;
-    line-height: 30px;
+    line-height: 50px;
   }
-  .hum-menu .line-1 {
-    top: 20px;
-  }
-  .hum-menu .line-2 {
-    top: 25px;
-  }
-  .hum-menu .line-3 {
-    top: 30px;
+  .reverse{
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-link h3 i {
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .logo-link h3 {
+    padding: 0 6px;
+  }
+  #navbarScroll a {
+    padding: 0 35px;
+    line-height: 55px;
+  }
+  .nav-icon > span {
+    font-size: 18px;
+    width: 55px;
+    line-height: 55px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .logo-link h3 i {
+    font-size: 20px;
+    line-height: 55px;
+  }
   .logo-link h3 {
     padding: 0 30px;
   }
   #navbarScroll a {
-    line-height: 40px;
-    padding: 5px 33px;
+    padding: 0px 63px;
+    line-height: 55px;
   }
   .nav-icon > span {
-    width: 43px;
-  }
-  .hum-menu .line-1 {
-    top: 20px;
-  }
-  .hum-menu .line-2 {
-    top: 25px;
-  }
-  .hum-menu .line-3 {
-    top: 30px;
+    font-size: 20px;
+    width: 61px;
+    line-height: 55px;
   }
 }
 /* ********NavBar Resp Css End*******/
 
 /* ********Banner Resp Css Start*******/
-@media (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
+  .span-text {
+    font-size: 12px;
+  }
   h1 {
-    font-size: 31px !important;
+    font-size: 20px !important;
     line-height: 60px;
   }
-
   p {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .link-btn .link {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: 8rem;
+    margin-right: 20px;
   }
 }
 /* ********Banner Resp Css End*******/
+
+/* ********AboutBlog Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .pdl50 {
+    padding-left: 0;
+  }
+  .pdb50 {
+    padding-bottom: 0;
+  }
+  .pdt50 {
+    /* padding-top: 0; */
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .company-service a {
+    font-size: 14px;
+  }
+}
+/* ********AboutBlog Resp Css End*******/
+
+/* ********Experience Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .main-heading > h2 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 13px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .company-service a {
+    font-size: 14px;
+  }
+}
+/* ********Experience Resp Css End*******/
+
+/* ********Project Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .mt-5 {
+    margin-top: 0rem !important;
+  }
+}
+/* ********Project Resp Css End*******/
+
+/* ********BlogPost Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .card-content p > span {
+    padding-right: 12px;
+    font-size: 12px;
+  }
+  .link-btn {
+    margin: 25px 0;
+}
+}
+
+/* ********BlogPost Resp Css End*******/
+/* ********Team Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+.mrt50{
+  margin-top: 30px;
+}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .team-name {
+    padding: 20px 20px 20px 20px;
+    min-height: 115px;
+  }
+  .team-name p{
+    margin: 0;
+  }
+  .social-icon a {
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+}
+/* ********Team Resp Css End*******/
+
+/* ********Footer Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .pe-5 {
+    padding-right: 0rem !important;
+  }
+  .copy-right {
+    font-size: 11px;
+  }
+  .btm-ftr-right,
+  .btm-ftr-left {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ********Footer Resp Css End*******/

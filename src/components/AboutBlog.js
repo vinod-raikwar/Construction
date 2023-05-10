@@ -17,17 +17,17 @@ function About() {
               <Row>
                 <Col xs={12} md={6} className="align-self-center">
                   <div className="float-image">
-                    <div className="image-1">
-                      <img src={image_1} alt="" />
+                    <div className="image-1 pdtb20">
+                      <img className="img-fluid w-100" src={image_1} alt="" />
                     </div>
 
                     <div className="image-2">
-                      <img className="vertical-flow" src={image_2} alt="" />
+                      <img className="img-fluid vertical-flow" src={image_2} alt="" />
                     </div>
                   </div>
                 </Col>
                 <Col xs={12} md={6} className="align-self-center">
-                  <div className=" pdl50">
+                  <div className="pdl50">
                     <div className="main-heading">
                       <span className="span-text ">
                         &nbsp;&nbsp;Construction
