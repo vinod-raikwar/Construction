@@ -19,8 +19,8 @@ function TopHeader() {
       <div className="top-header">
         <Container fluid>
           <Row>
-            <Col xs={12}  md={10} lg={9}>
-              <div >
+            <Col xs={12} md={10} lg={9}>
+              <div className="d-flex justify-content-center">
                 <Row>
                   <Col xs={12} md={3} className="p-0">
                     <div className="top-header-left">
@@ -38,18 +38,17 @@ function TopHeader() {
                         <span>
                           <MdOutlineEmail />
                         </span>
-                        <Link to="#/"> Example@test.com</Link>
+                        <Link to="#/">Example@test.com</Link>
                       </p>
                     </div>
                   </Col>
                   <Col xs={12} md={6} className="p-0">
-                    <div className="top-header-left">
+                    <div className="top-header-left pd-l30">
                       <p>
                         <span>
                           <MdAccessTime />
                         </span>
-                        <Link to="#/">
-                          Mon-Sat 08:00AM-17:30PM, Sunday-CLOSED
+                        <Link to="#/">Mon-Sat 08:00AM-17:30PM, Sunday-CLOSED
                         </Link>
                       </p>
                     </div>
@@ -57,9 +56,9 @@ function TopHeader() {
                 </Row>
               </div>
             </Col>
-            <Col xs={12} md={2}lg={3} className="p-0">
+            <Col xs={12} md={2} lg={3} className="p-0">
               <div className="top-header-right">
-                <div className="social-icon d-flex justify-content-end">
+                <div className="social-icon">
                   <Link to="#/">
                     {" "}
                     <FaTwitter />

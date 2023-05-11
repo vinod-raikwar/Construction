@@ -55,7 +55,7 @@ function NavBar() {
       <Navbar bg="light" expand="lg">
         <Container fluid className="p-0">
           <Row className="m-0">
-            <Col lg={2} className="p-0">
+            <Col xs={12} lg={2} className="p-0">
               <Navbar.Brand href="#">
                 <div className="logo-link">
                   <h3>
@@ -65,9 +65,9 @@ function NavBar() {
               </Navbar.Brand>
             </Col>
 
-            <Col lg={10} className="p-0" >
+            <Col xs={12} lg={10} className="p-0" >
               <Row className="reverse m-0" >
-                <Col lg={10} className="p-0">
+                <Col xs={12} lg={10} className="p-0">
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -84,8 +84,8 @@ function NavBar() {
                     </Nav>
                   </Navbar.Collapse>
                 </Col>
-                <Col lg={2} className="p-0">
-                  <Form className="p-0 d-flex justify-content-end">
+                <Col xs={12} lg={2} className="p-0">
+                  <Form className="p-0 search-box">
                     <div className="d-flex nav-icon">
                       <span className="search">
                         <BsSearch />

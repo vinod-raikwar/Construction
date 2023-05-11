@@ -1,7 +1,6 @@
 /* ********TopHeader Css Start******** */
 .top-header {
   padding: 0 30px;
-  /* position: relative; */
   width: 100%;
 }
 
@@ -22,9 +21,20 @@
 .top-header-left P:hover a {
   color: #ff5e14 !important;
 }
+.top-header-right{
+  display: flex;
+  justify-content: center;
+}
 /* ********TopHeader Css End******** */
 
 /* ********Navbar Css Start******** */
+.search-box{
+  display: flex;
+  justify-content: end;
+ }
+.row {
+  width: 100%;
+}
 .navbar-brand {
   padding: 0 !important;
   margin: 0 !important;
@@ -39,9 +49,8 @@
   border: 1px solid #ff5e14;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: #ff5e14;
-  /* line-height: 64px; */
 }
 .logo-link h3 {
   margin-bottom: 0px;
@@ -74,7 +83,7 @@
   border-left-width: 0;
   line-height: 60px;
   font-size: 20px;
-  width: 67px;
+  width: 62px;
   text-align: center;
 }
 .navbar-toggler:focus{
@@ -89,27 +98,29 @@
   position: relative;
   align-items: center;
   background-color: #ff5e14;
+  /* z-index: 8; */
 }
 .hum-menu .hum-line {
   position: absolute;
   border: 1px solid #ffffff !important;
   height: 2px !important;
   transition: 0.3s ease;
+  line-height: 1;
 }
 .hum-menu .line-1 {
   left: 30%;
-  top: 21px;
+  top: 24px;
   width: 12px;
 }
 .hum-menu .line-2 {
   left: 30%;
   width: 20px;
-  top: 26px;
+  top: 29px;
 }
 .hum-menu .line-3 {
   right: 35%;
   width: 12px;
-  top: 31px;
+  top: 34px;
 }
 .hum-menu:hover .line-1,
 .hum-menu:hover .line-3 {
@@ -187,7 +198,7 @@
 }
 .image-1 {
   overflow: hidden;
-  height: 25rem;
+  /* height: 25rem; */
 }
 .image-2 {
   display: flex;
@@ -494,7 +505,9 @@ tent: "";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 60vh;
   z-index: 3;
@@ -656,14 +669,16 @@ span > a:hover {
 /* ********Footer Bottom Css Start******** */
 .ftr-btm {
   border-top: 1px solid rgb(156, 165, 175, 0.3);
-  height: 50px;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .copy-right {
   font-size: 13px;
   color: #9ca5af;
   margin: 0;
-  line-height: 50px;
 }
 .copy-right > a {
   color: #9ca5af !important;
@@ -678,12 +693,9 @@ span > a:hover {
   display: flex;
   justify-content:end;
 }
-.btm-ftr-right .social-icon {
-  position: absolute;
-}
 .btm-ftr-right .social-icon a {
   width: 48px;
-  height: 48px;
+  height: 24px;
   margin: 0;
   font-size: 16px;
   /* border: 1px solid rgb(156, 165, 175,0.3);

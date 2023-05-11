@@ -19,7 +19,7 @@ function Blog() {
         <div className="bg-banner-image">
           <Container>
             <Row>
-              <Col xs={5}>
+              <Col xs={12} md={5}>
                 <div className="main-heading ">
                   <span className="span-text">&nbsp; construction</span>
                   <h1>Blog</h1>
@@ -42,8 +42,8 @@ function Blog() {
               </div>
             </div>
             <Row>
-              <Col xs={12} sm={8}>
-                <div class="post mrt50">
+              <Col xs={12} md={8}>
+                <div class="post mrt50 ">
                   <Row>
                     <Col xs={12}>
                       <div
@@ -51,7 +51,7 @@ function Blog() {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                       >
-                        <div className="pe-5">
+                        <div className="">
                           <div className="post-image">
                             <img
                               className="img-fluid w-100"
@@ -113,8 +113,8 @@ function Blog() {
                   </Row>
 
                   <Row>
-                    <Col xs={12}>
-                      <div className="pe-5">
+                    <Col xs={12} >
+                      <div className="">
                         <div className="post-image">
                           <img
                             className="img-fluid w-100"
@@ -175,7 +175,7 @@ function Blog() {
 
                   <Row>
                     <Col xs={12}>
-                      <div className="pe-5">
+                      <div className="">
                         <div className="post-image">
                           <img
                             className="img-fluid w-100"

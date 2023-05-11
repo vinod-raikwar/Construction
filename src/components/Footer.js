@@ -161,7 +161,8 @@ function Footer() {
                         </p>
                         <p>
                           <Link to="#/">
-                          Plot no.14 AirenHeight, Opposite Orbit Mall, AB Rd, Indore, Madhya Pradesh 452001
+                            Plot no.14 AirenHeight, Opposite Orbit Mall, AB Rd,
+                            Indore, Madhya Pradesh 452001
                           </Link>
                         </p>
                       </div>
@@ -212,43 +213,41 @@ function Footer() {
         {/* ********Footer Bottom Start********  */}
         <div className="ftr-btm ftr-bg ">
           <Container>
-            <div className="vertical-middle">
-              <Row>
-                <Col xs={12} sm={6} >
-                  <div className="btm-ftr-left">
-                      <p className="copy-right">
-                        <span>
-                          <MdCopyright />
-                        </span>
-                        2023 &nbsp;<Link to="#/">Qode Interactive</Link>, All
-                        Rights Reserved
-                      </p>
+            <Row>
+              <Col xs={12} sm={8}>
+                <div className="btm-ftr-left ">
+                  <p className="copy-right">
+                    <span>
+                      <MdCopyright />
+                    </span>
+                    2023 &nbsp;<Link to="#/">Qode Interactive</Link>, All Rights
+                    Reserved
+                  </p>
+                </div>
+              </Col>
+              <Col xs={12} sm={4}>
+                <div className="btm-ftr-right ">
+                  <div className="social-icon d-flex">
+                    <Link to="#/">
+                      {" "}
+                      <FaTwitter />
+                    </Link>
+                    <Link to="#/">
+                      {" "}
+                      <FaFacebookF />
+                    </Link>
+                    <Link to="#/">
+                      {" "}
+                      <FaInstagram />
+                    </Link>
+                    <Link to="#/">
+                      {" "}
+                      <FaLinkedinIn />
+                    </Link>
                   </div>
-                </Col>
-                <Col xs={12} sm={6}>
-                  <div className="btm-ftr-right ">
-                    <div className="social-icon d-flex">
-                      <Link to="#/">
-                        {" "}
-                        <FaTwitter />
-                      </Link>
-                      <Link to="#/">
-                        {" "}
-                        <FaFacebookF />
-                      </Link>
-                      <Link to="#/">
-                        {" "}
-                        <FaInstagram />
-                      </Link>
-                      <Link to="#/">
-                        {" "}
-                        <FaLinkedinIn />
-                      </Link>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
+                </div>
+              </Col>
+            </Row>
           </Container>
         </div>
         {/* ********Footer Bottom End********  */}

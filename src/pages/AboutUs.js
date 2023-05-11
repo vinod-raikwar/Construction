@@ -15,7 +15,7 @@ function AboutUs() {
         <div className="bg-banner-image">
           <Container>
             <Row>
-              <Col xs={5}>
+              <Col xs={12} md={5}>
                 <div className="main-heading ">
                   <span className="span-text">&nbsp; construction</span>
                   <h1>About Us</h1>

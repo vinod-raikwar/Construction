@@ -1,4 +1,9 @@
 /* ********TopHeader Resp Css Start*******/
+@media (min-width: 320px) and (max-width: 374px) {
+  .pd-l30 p {
+    padding-left: 40px;
+  }
+}
 @media (min-width: 425px) and (max-width: 786px) {
   .top-header {
     padding: 0 15px;
@@ -14,7 +19,7 @@
   }
   .social-icon a {
     font-size: 10px;
-    margin: 0 18px 0 0;
+    margin: 0 8px 0 0;
     line-height: 35px;
   }
 }
@@ -38,8 +43,14 @@
   }
   .social-icon a {
     font-size: 10px;
-    margin: 0 20px 0 0;
+    margin: 0 8px 0 0;
     line-height: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .top-header-right {
+    display: flex;
+    justify-content: end;
   }
 }
 
@@ -47,40 +58,89 @@
 
 /* ********NavBar Resp Css Start*******/
 @media (min-width: 320px) and (max-width: 768px) {
+  .logo-link h3 {
+    padding: 0 20px;
+  }
   .logo-link h3 i {
     line-height: 45px;
-    font-size: 15px;
+    font-size: 18px;
   }
-  .logo-link h3 {
-    padding: 0 15px;
-  }
+
   #navbarScroll a {
+    border: 1px solid #9ca5af;
     line-height: 50px;
+    padding: 0;
+    text-align: center;
   }
   .nav-icon > span {
-    line-height: 50px;
+    border: none;
+    border-left-width: 1px solid #ffffff !important;
+    line-height: 45px;
+    font-size: 15px;
+    font-family: "Poppins-SemiBold";
+    width: 40px;
   }
-  .reverse{
+  .reverse {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    float: right;
+    width: 100%;
+  }
+  .search-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ffffff !important;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: end;
+    z-index: 8;
+  }
+  .navbar-toggler {
+    border: none !important;
+    text-align: end !important;
+    float: right;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    z-index: 9;
+    opacity: 1;
+  }
+  .navbar-toggler-icon {
+    background-image: none !important;
+  }
+  .hum-menu .line-1 {
+    left: 10%;
+    width: 20px;
+    top: 18px;
+  }
+  .hum-menu .line-2 {
+    left: 10%;
+    width: 20px;
+    top: 24px;
+  }
+  .hum-menu .line-3 {
+    right: 40%;
+    width: 20px;
+    top: 30px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .logo-link h3 i {
     font-size: 18px;
-    line-height: 55px;
+    line-height: 50px;
   }
   .logo-link h3 {
     padding: 0 6px;
   }
   #navbarScroll a {
-    padding: 0 35px;
-    line-height: 55px;
+    padding: 0 33px;
+    line-height: 50px;
   }
   .nav-icon > span {
     font-size: 18px;
     width: 55px;
-    line-height: 55px;
+    line-height: 50px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -92,12 +152,12 @@
     padding: 0 30px;
   }
   #navbarScroll a {
-    padding: 0px 63px;
+    padding: 0px 60px;
     line-height: 55px;
   }
   .nav-icon > span {
     font-size: 20px;
-    width: 61px;
+    width: 62px;
     line-height: 55px;
   }
 }
@@ -118,8 +178,8 @@
   }
   .link-btn .link {
     padding: 8px 16px;
-    font-size: 14px;
-    width: 8rem;
+    font-size: 12px;
+    width: 6rem;
     margin-right: 20px;
   }
 }
@@ -133,14 +193,33 @@
   .pdb50 {
     padding-bottom: 0;
   }
-  .pdt50 {
-    /* padding-top: 0; */
+  .company-service span {
+    padding-right: 10px;
+  }
+  .company-service a {
+    font-size: 13px;
+  }
+  .image-1 {
+    height: 45vh;
+  }
+  .vertical-flow {
+    top: -30px;
+  }
+  @keyframes vertical {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
-  .company-service a {
-    font-size: 14px;
-  }
 }
 /* ********AboutBlog Resp Css End*******/
 
@@ -152,11 +231,14 @@
   h5 {
     font-size: 13px !important;
   }
+  .exp-bg {
+    height: 50vh !important;
+  }
+  .exp-bg:hover .fade-img {
+    height: 30vh;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .company-service a {
-    font-size: 14px;
-  }
 }
 /* ********Experience Resp Css End*******/
 
@@ -176,22 +258,29 @@
   }
   .link-btn {
     margin: 25px 0;
-}
+  }
+  .card-image a img {
+    height: 200px;
+  }
+  .blg-crd-icon {
+    margin-right: 5px;
+    font-size: 12px;
+  }
 }
 
 /* ********BlogPost Resp Css End*******/
 /* ********Team Resp Css Start*******/
 @media (min-width: 320px) and (max-width: 768px) {
-.mrt50{
-  margin-top: 30px;
-}
+  .mrt50 {
+    margin-top: 30px;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .team-name {
     padding: 20px 20px 20px 20px;
     min-height: 115px;
   }
-  .team-name p{
+  .team-name p {
     margin: 0;
   }
   .social-icon a {
@@ -203,16 +292,44 @@
 
 /* ********Footer Resp Css Start*******/
 @media (min-width: 320px) and (max-width: 768px) {
+  .btm-ftr-right {
+    justify-content: center;
+  }
   .pe-5 {
     padding-right: 0rem !important;
   }
   .copy-right {
-    font-size: 11px;
-  }
-  .btm-ftr-right,
-  .btm-ftr-left {
+    font-size: 10px;
     display: flex;
     justify-content: center;
   }
+  h4 {
+    font-size: 15px !important;
+  }
+  .form-control {
+    padding: 0.25rem 0.75rem !important;
+  }
+  .btm-ftr-right .social-icon a {
+    font-size: 12px;
+  }
 }
 /* ********Footer Resp Css End*******/
+
+/* ********AboutPage Resp Css Star*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .pdr50 {
+    padding-right: 0px;
+  }
+  .p-5 {
+    padding: 0rem !important;
+  }
+}
+/* ********AboutPage Resp Css End*******/
+
+/* ********AboutPage Resp Css Star*******/
+@media (min-width: 320px) and (max-width: 768px) {
+  .post-image img {
+    height: 200px;
+}
+}
+/* ********AboutPage Resp Css End*******/
