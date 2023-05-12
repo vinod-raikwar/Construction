@@ -7,6 +7,9 @@ import image_1 from "../assets/images/image-1.webp";
 import image_2 from "../assets/images/image-2.webp";
 import { MdSquare } from "react-icons/md";
 
+import Floater from "react-floater";
+
+const Button = ({ innerRef, ...rest }) => <button ref={innerRef} {...rest} />;
 function About() {
   return (
     <>
@@ -22,7 +25,11 @@ function About() {
                     </div>
 
                     <div className="image-2">
-                      <img className="img-fluid vertical-flow" src={image_2} alt="" />
+                      <img
+                        className="img-fluid vertical-flow"
+                        src={image_2}
+                        alt=""
+                      />
                     </div>
                   </div>
                 </Col>
@@ -75,12 +82,19 @@ function About() {
                         </Col>
                       </Row>
                     </div>
-
                     <div className="link-btn d-flex">
                       <div className="link orenge-btn">
                         <Link to="#/">Read More</Link>
                       </div>
                     </div>
+                    <Floater content="This is the Span Floater content">
+                      <span>click me</span>
+                    </Floater>
+                    ;
+                    <Floater content="This is the Button Floater content">
+                      <Button>click me</Button>
+                    </Floater>
+                    ;
                   </div>
                 </Col>
               </Row>

@@ -199,9 +199,11 @@
 .image-1 {
   overflow: hidden;
   /* height: 25rem; */
+  /* height: 350px; */
 }
 .image-2 {
   display: flex;
+  /* height: 350px; */
   vertical-align: middle;
 }
 
@@ -281,7 +283,6 @@
   background-image: url("../images/c-e.avif");
   width: 100%;
   height: 70vh !important;
-  border: 1px solid red;
 }
 .progress-text {
   display: flex;
@@ -343,16 +344,26 @@
 /* ********Project Css End******** */
 
 /* ********BlogPost Css Start******** */
+.cards {
+  position: relative;
+  overflow: hidden;
+  margin-top: 35px;
+}
+.border-btm:hover {
+  position: absolute;
+  transition: all 0.5s;
+  border-bottom: 5px solid #ff5e14 !important;
+}
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
 .author-img {
   position: absolute;
   top: 50;
   margin-top: -30px;
   margin-left: 20px;
   border: 3px solid #ffffff;
-}
-.card-image {
-  position: relative;
-  overflow: hidden;
 }
 .card-image a img {
   width: 100%;
@@ -373,16 +384,7 @@
 .card-content a:hover h5 {
   color: #ff5e14 !important;
 }
-.cards {
-  position: relative;
-  overflow: hidden;
-  margin-top: 35px;
-}
-.border-btm:hover {
-  position: absolute;
-  transition: all 0.5s;
-  border-bottom: 5px solid #ff5e14 !important;
-}
+
 .blg-crd-icon {
   color: #ff5e14;
   margin-right: 5px;
@@ -558,9 +560,13 @@ span > a:hover {
 
 /* ********Portfolio Css End******** */
 
-/* ********Blog Css Start******** */
+/* ********BlogPage Css Start******** */
 .post-image img {
   height: 400px;
+}
+.blg-pst-img img{
+  width: 60px;
+  height: 60px;
 }
 
 .border-btm-link {
@@ -615,13 +621,30 @@ span > a:hover {
 .wht-clr h6 {
   color: #fff;
 }
-/* ********Blog Css End******** */
+/* ********BlogPage Css End******** */
 
 /* ********Contact Css Start******** */
 .contact-icon a {
   background-color: #001659;
   padding: 10px 10px;
   color: #ffffff !important;
+}
+.contect-icon{
+  display: inline-block;
+  background-color: #ff5e14;
+  color: #ffffff;
+  line-height: 1;
+  font-size: 30px;
+  padding: 25px;
+  transition: all .3s;
+  border-radius: 50%;
+}
+.location-map iframe{
+  width: 100%;
+  height: 400px;
+}
+.ml-4{
+  margin-left: -40px;
 }
 /* ********Contact Css End******** */
 
@@ -740,17 +763,6 @@ span > a:hover {
   /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 }
 
-.contect-icon{
-  display: inline-block;
-  background-color: #ff5e14;
-  color: #ffffff;
-  line-height: 1;
-  font-size: 30px;
-  padding: 25px;
-  transition: all .3s;
-  border-radius: 50%;
-}
 
-.ml-4{
-  margin-left: -40px;
-}
+
+

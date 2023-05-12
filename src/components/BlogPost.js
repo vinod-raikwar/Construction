@@ -180,6 +180,8 @@ function Blog() {
           </Container>
         </div>
       </section>
+
+
     </>
   );
 }

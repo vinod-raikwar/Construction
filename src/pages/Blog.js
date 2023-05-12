@@ -19,7 +19,7 @@ function Blog() {
         <div className="bg-banner-image">
           <Container>
             <Row>
-              <Col xs={12} md={5}>
+              <Col xs={12} md={5} >
                 <div className="main-heading ">
                   <span className="span-text">&nbsp; construction</span>
                   <h1>Blog</h1>
@@ -42,22 +42,21 @@ function Blog() {
               </div>
             </div>
             <Row>
-              <Col xs={12} md={8}>
-                <div class="post mrt50 ">
-                  <Row>
-                    <Col xs={12}>
+              <Col xs={12} md={7} lg={8} >
+                <div class="post mrt50">
+                  <Row className="mx-auto">
+                    <Col xs={12} >
                       <div
                         data-aos="fade-down"
                         data-aos-easing="linear"
-                        data-aos-duration="1000"
-                      >
+                        data-aos-duration="1000">
+
                         <div className="">
                           <div className="post-image">
                             <img
                               className="img-fluid w-100"
                               src={archi}
-                              alt=""
-                            />
+                              alt=""/>
                           </div>
                           <div className="main-heading post-content border-btm-link pdtb20">
                             <h3>Lorem, ipsum dolor.</h3>
@@ -91,7 +90,7 @@ function Blog() {
                               </span>
                             </p>
 
-                            <p className="clr-black ">
+                            <p className="clr-black text-wrap">
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Eos suscipit quas temporibus quod aut
                               incidunt at atque rerum, natus deserunt
@@ -110,10 +109,8 @@ function Blog() {
                         </div>
                       </div>
                     </Col>
-                  </Row>
 
-                  <Row>
-                    <Col xs={12} >
+                    <Col xs={12}>
                       <div className="">
                         <div className="post-image">
                           <img
@@ -153,7 +150,7 @@ function Blog() {
                               <span>Off</span>
                             </span>
                           </p>
-                          <p className="clr-black ">
+                          <p className="clr-black text-wrap">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Eos suscipit quas temporibus quod aut incidunt
                             at atque rerum, natus deserunt consectetur ullam rem
@@ -171,9 +168,7 @@ function Blog() {
                         </div>
                       </div>
                     </Col>
-                  </Row>
 
-                  <Row>
                     <Col xs={12}>
                       <div className="">
                         <div className="post-image">
@@ -214,7 +209,7 @@ function Blog() {
                               <span>Off</span>
                             </span>
                           </p>
-                          <p className="clr-black ">
+                          <p className="clr-black text-wrap">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Eos suscipit quas temporibus quod aut incidunt
                             at atque rerum, natus deserunt consectetur ullam rem
@@ -236,7 +231,7 @@ function Blog() {
                 </div>
               </Col>
               {/* ***********Blog Aside Col Start********* */}
-              <Col xs={12} sm={4}>
+              <Col xs={12} md={5} lg={4}>
                 <div className="right-sidebar mrt50">
                   <div className="blog-sidebar-box">
                     <h3>Search</h3>
@@ -255,72 +250,56 @@ function Blog() {
                   <div className="blog-sidebar-box ">
                     <h3>Popular Post</h3>
                     <div className="border p-3">
-                      <div className="d-flex">
-                        <img
-                          src={archi}
-                          alt="John Doe"
-                          style={{ width: "70px", height: "70px" }}
-                        />
+                      <div className="d-flex blg-pst-img">
+                        <img src={archi} alt="John Doe" />
 
                         <div className="ps-2">
                           <p className="clr-orenge m-0">
                             <strong>February 19, 2023</strong>
                           </p>
-                          <p className="clr-black">
+                          <p className="clr-black text-wrap ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
                           </p>
                         </div>
                       </div>
 
-                      <div className="d-flex">
-                        <img
-                          src={building}
-                          alt="John Doe"
-                          style={{ width: "70px", height: "70px" }}
-                        />
+                      <div className="d-flex blg-pst-img">
+                        <img src={building} alt="John Doe" />
 
                         <div className="ps-2">
                           <p className="clr-orenge m-0">
                             <strong>February 19, 2023</strong>
                           </p>
-                          <p className="clr-black">
+                          <p className="clr-black text-wrap">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
                           </p>
                         </div>
                       </div>
 
-                      <div className="d-flex">
-                        <img
-                          src={planning}
-                          alt="John Doe"
-                          style={{ width: "70px", height: "70px" }}
-                        />
+                      <div className="d-flex blg-pst-img">
+                        <img src={planning} alt="John Doe" />
 
                         <div className="ps-2">
                           <p className="clr-orenge m-0">
                             <strong>February 19, 2023</strong>
                           </p>
-                          <p className="clr-black">
+                          <p className="clr-black text-wrap">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
                           </p>
                         </div>
                       </div>
 
-                      <div className="d-flex">
-                        <img
-                          src={construction}
-                          alt="John Doe"
-                          style={{ width: "70px", height: "70px" }}
-                        />
+                      <div className="d-flex blg-pst-img">
+                        <img src={construction} alt="John Doe" />
 
                         <div className="ps-2">
                           <p className="clr-orenge m-0">
                             <strong>February 19, 2023</strong>
                           </p>
-                          <p className="clr-black">
+                          <p className="clr-black text-wrap">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
                           </p>

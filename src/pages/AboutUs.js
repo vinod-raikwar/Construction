@@ -55,7 +55,7 @@ function AboutUs() {
                 </div>
               </Col>
               <Col xs={12} sm={6}>
-                <div className=" p-5">
+                <div className="">
                   <img className="img-fluid" src={m_1} alt="" />
                 </div>
               </Col>
